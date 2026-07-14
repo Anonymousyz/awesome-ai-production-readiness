@@ -8,13 +8,16 @@
 
 ## v0.2
 
-- [ ] Add 50+ resources
-- [ ] Add badges and topic tags
-- [ ] Add Chinese intro section
-- [ ] Add links to benchmark/toolkit examples
+- [x] Add 50+ resources
+- [x] Add badges and topic tags
+- [x] Add Chinese intro section
+- [x] Add decision map
+- [x] Add links to benchmark/toolkit examples
 
 ## v0.3
 
-- [ ] Add comparison tables
-- [ ] Add “what to use when” decision map
+- [ ] Replace placeholder GitHub URLs after public launch
+- [ ] Add star-history badge after launch
 - [ ] Submit to awesome-list communities
+- [ ] Add comparison table for eval/observability/guardrails tools
+- [ ] Add “getting started by role” section: FDE, LLMOps, GRC, product manager
