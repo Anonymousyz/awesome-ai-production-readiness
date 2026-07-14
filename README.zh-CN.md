@@ -19,3 +19,15 @@
 - FDE / AI 落地工作流。
 
 建议先看英文 README，再按 `docs/decision_map.md` 选择工具。
+
+## 核心判断
+
+本清单采用一个生产化判断框架：
+
+> 生产级 AI = 业务流程 + 评估证据 + 治理机制 + 责任链。
+
+也就是说，AI demo 能跑，不等于可以进入真实业务流程。生产化还需要回答数据边界、质量评估、人工复核、审计日志、成本归属、事故责任和回滚机制等问题。
+
+相关思想宣言：
+
+https://github.com/Anonymousyz/ai-prototype-to-production-toolkit/blob/main/MANIFESTO.md

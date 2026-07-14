@@ -23,6 +23,18 @@ The focus is practical production readiness:
 
 ---
 
+## Production readiness lens
+
+This list is curated through one lens:
+
+> **Production-ready AI = workflow + evidence + governance + accountability.**
+
+The related manifesto is here: [AI Production Readiness Manifesto](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit/blob/main/MANIFESTO.md).
+
+This means the list prioritizes resources that help teams answer production questions, not only model capability questions.
+
+---
+
 ## Contents
 
 - [Quick decision map](#quick-decision-map)
