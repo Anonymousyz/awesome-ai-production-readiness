@@ -141,7 +141,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md).
 
 ## Production readiness checklists
 
-- [AI Prototype-to-Production Toolkit](https://github.com/your-name/ai-prototype-to-production-toolkit) — Checklists, scorecards, prompts and risk templates for assessing AI prototype readiness. Replace with final public URL after launch.
+- [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) — Checklists, scorecards, prompts and risk templates for assessing AI prototype readiness. Replace with final public URL after launch.
 - [NIST AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/) — Use Govern/Map/Measure/Manage to structure readiness review.
 - [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) — Use as a security checklist for LLM applications.
 
@@ -149,7 +149,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md).
 
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Practical examples and guides for working with the OpenAI API.
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) — Practical Claude examples and recipes.
-- [AI Prototype-to-Production Toolkit](https://github.com/your-name/ai-prototype-to-production-toolkit) — FDE discovery guide, pilot memo and readiness review templates. Replace with final public URL after launch.
+- [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) — FDE discovery guide, pilot memo and readiness review templates. Replace with final public URL after launch.
 
 ---
 
@@ -180,7 +180,7 @@ Please avoid vendor-only marketing pages without reusable technical or governanc
 
 ## Related project
 
-This list is maintained alongside the [AI Prototype-to-Production Toolkit](https://github.com/your-name/ai-prototype-to-production-toolkit), a practical readiness toolkit for enterprise and regulated AI deployment.
+This list is maintained alongside the [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit), a practical readiness toolkit for enterprise and regulated AI deployment.
 
 ---
 
