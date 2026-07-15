@@ -35,8 +35,8 @@ class CatalogTests(unittest.TestCase):
             readme = Path(tmp) / "README.md"
             readme.write_text(
                 "## Evaluation\n"
-                "- [One](https://example.org/tool) — first\n"
-                "- [Two](https://example.org/tool) — duplicate\n",
+                "- [One](https://example.org/tool): first\n"
+                "- [Two](https://example.org/tool): duplicate\n",
                 encoding="utf-8",
             )
             with self.assertRaisesRegex(ValueError, "duplicate resource URL"):

@@ -6,9 +6,9 @@ A resource should satisfy all of the following:
 
 1. It materially helps a team evaluate, govern, secure, observe, deploy, or operate an AI system.
 2. It has public documentation or source material that can be reviewed without registration.
-3. Its description can state a concrete production-readiness use, not only a broad AI capability.
+3. Its description states a concrete production-readiness use rather than a broad AI capability.
 4. It is actively maintained, is an authoritative standard, or is explicitly labeled historically important.
-5. Vendor resources are included for reusable technical or governance content—not marketing claims.
+5. Vendor resources are included for reusable technical or governance content, not for marketing claims.
 
 ## Exclusion criteria
 

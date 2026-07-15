@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 import re
 
-ENTRY = re.compile(r"^- \[([^]]+)\]\((https?://[^)]+)\)\s+[—-]\s+(.+)$")
+ENTRY = re.compile(r"^- \[([^]]+)\]\((https?://[^)]+)\)\s*:\s+(.+)$")
 HEADING = re.compile(r"^##\s+(.+?)\s*$")
 
 
@@ -15,10 +15,14 @@ def extract(readme: Path) -> list[dict[str, str]]:
     category = "Uncategorized"
     rows: list[dict[str, str]] = []
     seen: set[str] = set()
+    skipped: list[str] = []
     for raw in readme.read_text(encoding="utf-8").splitlines():
         heading = HEADING.match(raw)
         if heading:
             category = heading.group(1)
+            continue
+        if raw.lstrip().startswith("- DUPLICATE_MARKED:"):
+            skipped.append(raw.strip())
             continue
         match = ENTRY.match(raw)
         if not match:
@@ -29,6 +33,8 @@ def extract(readme: Path) -> list[dict[str, str]]:
             raise ValueError(f"duplicate resource URL in curated sections: {url}")
         seen.add(normalized)
         rows.append({"name": name, "url": url, "description": description, "category": category})
+    if skipped:
+        print(f"Skipped {len(skipped)} markdown placeholders marked DUPLICATE_MARKED", file=__import__('sys').stderr)
     return rows
 
 
