@@ -24,9 +24,10 @@ def extract(readme: Path) -> list[dict[str, str]]:
         if not match:
             continue
         name, url, description = match.groups()
-        if url in seen:
-            continue
-        seen.add(url)
+        normalized = url.rstrip("/").lower()
+        if normalized in seen:
+            raise ValueError(f"duplicate resource URL in curated sections: {url}")
+        seen.add(normalized)
         rows.append({"name": name, "url": url, "description": description, "category": category})
     return rows
 

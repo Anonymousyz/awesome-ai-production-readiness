@@ -12,7 +12,7 @@ This is a compact orientation path, not a ranking.
 | Human-centered product design | [Google PAIR Guidebook](https://pair.withgoogle.com/guidebook/) | Converts human needs, feedback, and error recovery into design work |
 | Guardrail orchestration | [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | Programmable conversational controls |
 | AI red teaming | [PyRIT](https://github.com/Azure/PyRIT) | Structured attack and risk-identification workflows |
-| Model documentation | [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) | Repeatable model-reporting artifacts |
+| Model documentation | [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards) | Maintained model-card documentation and metadata pattern |
 | Deployment-readiness discussion | [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) | Connects workflow, evidence, governance, and accountability |
 
 Before choosing a tool, define the system, users, decision rights, data boundary, failure cost, and evidence needed for launch.

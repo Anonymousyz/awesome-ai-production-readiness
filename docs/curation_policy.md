@@ -29,4 +29,6 @@ Listing is not endorsement, certification, or a security assessment. Popularity 
 - Manual relevance review targeted quarterly.
 - Stale resources are annotated or removed through a documented commit.
 
+Archived projects may remain only when they retain clear historical or methodological value. Their README description must begin with an explicit **Archived upstream** warning, explain why the entry remains, and state that it is not recommended for new integrations. Archived entries are excluded from the recommended starting set.
+
 See [`MAINTENANCE.md`](../MAINTENANCE.md) for the current review record.

@@ -108,7 +108,7 @@
     {
       "name": "Rebuff",
       "url": "https://github.com/protectai/rebuff",
-      "description": "Prompt injection detection and prevention toolkit.",
+      "description": "**Archived upstream**; retained as a historical prompt-injection defense reference, not a recommendation for new integrations.",
       "category": "Guardrails and safety"
     },
     {
@@ -168,7 +168,7 @@
     {
       "name": "TensorFlow Model Card Toolkit",
       "url": "https://github.com/tensorflow/model-card-toolkit",
-      "description": "Toolkit for generating model cards and documenting model development/performance.",
+      "description": "**Archived upstream**; retained as a historical model-card generator, not a recommendation for new integrations.",
       "category": "Model/system documentation"
     },
     {

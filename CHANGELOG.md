@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.3.1 — 2026-07-15
+
+- Made duplicate curated URLs a hard export failure instead of silently discarding later entries.
+- Removed cross-category duplicates from the catalog.
+- Labeled archived upstream projects explicitly and removed archived Model Card Toolkit from the recommended starting set.
+- Added regression tests for duplicate source entries and archived recommendations.
+
 ## v0.3.0 — 2026-07-15
 
 - Added a versioned machine-readable resource catalog.

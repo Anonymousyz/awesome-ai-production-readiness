@@ -100,7 +100,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) — Programmable guardrails for LLM conversational systems.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) — Input/output guards, validators and structured output validation for LLM applications.
 - [LLM Guard](https://github.com/protectai/llm-guard) — Security toolkit for sanitizing prompts and outputs in LLM applications.
-- [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection and prevention toolkit.
+- [Rebuff](https://github.com/protectai/rebuff) — **Archived upstream**; retained as a historical prompt-injection defense reference, not a recommendation for new integrations.
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama) — Meta Purple Llama safety tools including Llama Guard resources.
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) — Security risks and guidance for LLM applications.
 
@@ -116,7 +116,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 
 ## Model/system documentation
 
-- [TensorFlow Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) — Toolkit for generating model cards and documenting model development/performance.
+- [TensorFlow Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) — **Archived upstream**; retained as a historical model-card generator, not a recommendation for new integrations.
 - [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993) — Foundational paper on model cards.
 - [Datasheets for Datasets](https://arxiv.org/abs/1803.09010) — Foundational documentation pattern for datasets.
 - [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards) — Practical model card documentation pattern used by the HF ecosystem.
@@ -159,14 +159,11 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 ## Production readiness checklists
 
 - [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) — Maintainer-authored checklists, scorecards, prompts and risk templates for assessing AI prototype readiness.
-- [NIST AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/) — Use Govern/Map/Measure/Manage to structure readiness review.
-- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) — Use as a security checklist for LLM applications.
 
 ## FDE and deployment workflow
 
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Practical examples and guides for working with the OpenAI API.
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) — Practical Claude examples and recipes.
-- [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) — Maintainer-authored FDE discovery guide, pilot memo and readiness review templates.
 
 ---
 
