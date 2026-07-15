@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "curated_at": "2026-07-15",
+  "count": 57,
+  "resources": [
+    {
+      "name": "OpenAI Evals",
+      "url": "https://github.com/openai/evals",
+      "description": "Framework for evaluating LLMs and LLM systems; useful for custom evals and benchmark registries.",
+      "category": "Evaluation and testing"
+    },
+    {
+      "name": "promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "description": "Test prompts, agents and RAGs; supports red teaming, model comparison and CI/CD.",
+      "category": "Evaluation and testing"
+    },
+    {
+      "name": "DeepEval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "description": "Pytest-like LLM evaluation framework with RAG, agentic, hallucination, toxicity and custom metrics.",
+      "category": "Evaluation and testing"
+    },
+    {
+      "name": "RAGAS",
+      "url": "https://github.com/explodinggradients/ragas",
+      "description": "Evaluation framework for retrieval-augmented generation applications.",
+      "category": "Evaluation and testing"
+    },
+    {
+      "name": "Giskard",
+      "url": "https://github.com/Giskard-AI/giskard",
+      "description": "Testing framework for ML and LLM systems with vulnerability detection.",
+      "category": "Evaluation and testing"
+    },
+    {
+      "name": "Evidently",
+      "url": "https://github.com/evidentlyai/evidently",
+      "description": "ML and LLM evaluation, monitoring and drift reports.",
+      "category": "Evaluation and testing"
+    },
+    {
+      "name": "TruLens",
+      "url": "https://github.com/truera/trulens",
+      "description": "Evaluation and tracking for LLM applications.",
+      "category": "Evaluation and testing"
+    },
+    {
+      "name": "EleutherAI lm-evaluation-harness",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "description": "Language model evaluation harness used across many benchmarks.",
+      "category": "Evaluation and testing"
+    },
+    {
+      "name": "Arize Phoenix",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "description": "Open-source AI observability and evaluation platform for tracing, datasets, experiments and prompt management.",
+      "category": "Observability and monitoring"
+    },
+    {
+      "name": "Opik",
+      "url": "https://github.com/comet-ml/opik",
+      "description": "Open-source platform for debugging, evaluating and monitoring LLM applications, RAG systems and agentic workflows.",
+      "category": "Observability and monitoring"
+    },
+    {
+      "name": "Langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "description": "Open-source LLM engineering platform for traces, evaluations, prompt management and metrics.",
+      "category": "Observability and monitoring"
+    },
+    {
+      "name": "Helicone",
+      "url": "https://github.com/Helicone/helicone",
+      "description": "Open-source LLM observability platform and gateway.",
+      "category": "Observability and monitoring"
+    },
+    {
+      "name": "OpenTelemetry",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "description": "Observability collector; useful foundation for production telemetry.",
+      "category": "Observability and monitoring"
+    },
+    {
+      "name": "WhyLabs",
+      "url": "https://github.com/whylabs/whylogs",
+      "description": "Data and ML logging/profiling for monitoring pipelines.",
+      "category": "Observability and monitoring"
+    },
+    {
+      "name": "NVIDIA NeMo Guardrails",
+      "url": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "description": "Programmable guardrails for LLM conversational systems.",
+      "category": "Guardrails and safety"
+    },
+    {
+      "name": "Guardrails AI",
+      "url": "https://github.com/guardrails-ai/guardrails",
+      "description": "Input/output guards, validators and structured output validation for LLM applications.",
+      "category": "Guardrails and safety"
+    },
+    {
+      "name": "LLM Guard",
+      "url": "https://github.com/protectai/llm-guard",
+      "description": "Security toolkit for sanitizing prompts and outputs in LLM applications.",
+      "category": "Guardrails and safety"
+    },
+    {
+      "name": "Rebuff",
+      "url": "https://github.com/protectai/rebuff",
+      "description": "Prompt injection detection and prevention toolkit.",
+      "category": "Guardrails and safety"
+    },
+    {
+      "name": "Llama Guard",
+      "url": "https://github.com/meta-llama/PurpleLlama",
+      "description": "Meta Purple Llama safety tools including Llama Guard resources.",
+      "category": "Guardrails and safety"
+    },
+    {
+      "name": "OWASP Top 10 for LLM Applications",
+      "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+      "description": "Security risks and guidance for LLM applications.",
+      "category": "Guardrails and safety"
+    },
+    {
+      "name": "Microsoft Responsible AI Toolbox",
+      "url": "https://github.com/microsoft/responsible-ai-toolbox",
+      "description": "Model assessment dashboards for error analysis, fairness, interpretability and responsible AI workflows.",
+      "category": "Responsible AI and governance"
+    },
+    {
+      "name": "Fairlearn",
+      "url": "https://github.com/fairlearn/fairlearn",
+      "description": "Python package for assessing and improving fairness of machine learning systems.",
+      "category": "Responsible AI and governance"
+    },
+    {
+      "name": "AIF360",
+      "url": "https://github.com/Trusted-AI/AIF360",
+      "description": "IBM toolkit with fairness metrics and bias mitigation algorithms.",
+      "category": "Responsible AI and governance"
+    },
+    {
+      "name": "Microsoft Agent Governance Toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "description": "Agent governance, policy enforcement, zero-trust identity, sandboxing and reliability engineering.",
+      "category": "Responsible AI and governance"
+    },
+    {
+      "name": "AI Verify",
+      "url": "https://github.com/aiverify-foundation/aiverify",
+      "description": "AI governance testing framework and software toolkit.",
+      "category": "Responsible AI and governance"
+    },
+    {
+      "name": "NIST AI RMF",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "description": "AI Risk Management Framework.",
+      "category": "Responsible AI and governance"
+    },
+    {
+      "name": "OECD AI Principles",
+      "url": "https://oecd.ai/en/ai-principles",
+      "description": "International AI policy principles.",
+      "category": "Responsible AI and governance"
+    },
+    {
+      "name": "TensorFlow Model Card Toolkit",
+      "url": "https://github.com/tensorflow/model-card-toolkit",
+      "description": "Toolkit for generating model cards and documenting model development/performance.",
+      "category": "Model/system documentation"
+    },
+    {
+      "name": "Model Cards for Model Reporting",
+      "url": "https://arxiv.org/abs/1810.03993",
+      "description": "Foundational paper on model cards.",
+      "category": "Model/system documentation"
+    },
+    {
+      "name": "Datasheets for Datasets",
+      "url": "https://arxiv.org/abs/1803.09010",
+      "description": "Foundational documentation pattern for datasets.",
+      "category": "Model/system documentation"
+    },
+    {
+      "name": "Hugging Face Model Cards",
+      "url": "https://huggingface.co/docs/hub/model-cards",
+      "description": "Practical model card documentation pattern used by the HF ecosystem.",
+      "category": "Model/system documentation"
+    },
+    {
+      "name": "Google People + AI Guidebook",
+      "url": "https://pair.withgoogle.com/guidebook/",
+      "description": "Practical guidance for human-centered AI products, feedback, trust, autonomy and error handling.",
+      "category": "Human-centered AI"
+    },
+    {
+      "name": "Microsoft HAX Toolkit",
+      "url": "https://www.microsoft.com/en-us/haxtoolkit/",
+      "description": "Human-AI interaction guidelines and workbook.",
+      "category": "Human-centered AI"
+    },
+    {
+      "name": "PAIR Guidebook: User Needs + Defining Success",
+      "url": "https://pair.withgoogle.com/guidebook/chapters/user-needs/",
+      "description": "Useful for defining human-centered success criteria.",
+      "category": "Human-centered AI"
+    },
+    {
+      "name": "NIST AI RMF Playbook",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/",
+      "description": "Suggested actions mapped to NIST AI RMF Govern, Map, Measure and Manage functions.",
+      "category": "Security and risk frameworks"
+    },
+    {
+      "name": "OWASP GenAI Security Project",
+      "url": "https://genai.owasp.org/",
+      "description": "Security and safety resources for generative AI systems.",
+      "category": "Security and risk frameworks"
+    },
+    {
+      "name": "garak",
+      "url": "https://github.com/NVIDIA/garak",
+      "description": "LLM vulnerability scanner.",
+      "category": "Security and risk frameworks"
+    },
+    {
+      "name": "PyRIT",
+      "url": "https://github.com/Azure/PyRIT",
+      "description": "Python Risk Identification Tool for generative AI red teaming.",
+      "category": "Security and risk frameworks"
+    },
+    {
+      "name": "Microsoft Counterfit",
+      "url": "https://github.com/Azure/counterfit",
+      "description": "Automation for assessing security of AI systems.",
+      "category": "Security and risk frameworks"
+    },
+    {
+      "name": "Presidio",
+      "url": "https://github.com/microsoft/presidio",
+      "description": "Data protection and PII detection/anonymization toolkit.",
+      "category": "Security and risk frameworks"
+    },
+    {
+      "name": "LangChain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "Framework for LLM applications and integrations.",
+      "category": "RAG and agent production patterns"
+    },
+    {
+      "name": "LangGraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Framework for controllable agent workflows.",
+      "category": "RAG and agent production patterns"
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://github.com/run-llama/llama_index",
+      "description": "Data framework for LLM and RAG applications.",
+      "category": "RAG and agent production patterns"
+    },
+    {
+      "name": "Haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "description": "Framework for production NLP and RAG pipelines.",
+      "category": "RAG and agent production patterns"
+    },
+    {
+      "name": "DSPy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "description": "Programming model for optimizing LM pipelines.",
+      "category": "RAG and agent production patterns"
+    },
+    {
+      "name": "Microsoft AutoGen",
+      "url": "https://github.com/microsoft/autogen",
+      "description": "Multi-agent AI application framework.",
+      "category": "RAG and agent production patterns"
+    },
+    {
+      "name": "CrewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "description": "Multi-agent automation framework.",
+      "category": "RAG and agent production patterns"
+    },
+    {
+      "name": "MLflow",
+      "url": "https://github.com/mlflow/mlflow",
+      "description": "ML lifecycle platform for tracking, packaging and model registry.",
+      "category": "Deployment and MLOps infrastructure"
+    },
+    {
+      "name": "BentoML",
+      "url": "https://github.com/bentoml/BentoML",
+      "description": "Model serving and AI application deployment framework.",
+      "category": "Deployment and MLOps infrastructure"
+    },
+    {
+      "name": "KServe",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Kubernetes model inference platform.",
+      "category": "Deployment and MLOps infrastructure"
+    },
+    {
+      "name": "Seldon Core",
+      "url": "https://github.com/SeldonIO/seldon-core",
+      "description": "Model deployment and monitoring on Kubernetes.",
+      "category": "Deployment and MLOps infrastructure"
+    },
+    {
+      "name": "Ray Serve",
+      "url": "https://github.com/ray-project/ray",
+      "description": "Scalable model serving framework in Ray.",
+      "category": "Deployment and MLOps infrastructure"
+    },
+    {
+      "name": "DVC",
+      "url": "https://github.com/iterative/dvc",
+      "description": "Data and model versioning.",
+      "category": "Deployment and MLOps infrastructure"
+    },
+    {
+      "name": "lakeFS",
+      "url": "https://github.com/treeverse/lakeFS",
+      "description": "Data version control for object storage.",
+      "category": "Deployment and MLOps infrastructure"
+    },
+    {
+      "name": "AI Prototype-to-Production Toolkit",
+      "url": "https://github.com/Anonymousyz/ai-prototype-to-production-toolkit",
+      "description": "Maintainer-authored checklists, scorecards, prompts and risk templates for assessing AI prototype readiness.",
+      "category": "Production readiness checklists"
+    },
+    {
+      "name": "OpenAI Cookbook",
+      "url": "https://github.com/openai/openai-cookbook",
+      "description": "Practical examples and guides for working with the OpenAI API.",
+      "category": "FDE and deployment workflow"
+    },
+    {
+      "name": "Anthropic Cookbook",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "description": "Practical Claude examples and recipes.",
+      "category": "FDE and deployment workflow"
+    }
+  ]
+}

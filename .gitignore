@@ -3,3 +3,12 @@ Thumbs.db
 .env
 *.local.md
 _private/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.coverage

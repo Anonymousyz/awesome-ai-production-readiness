@@ -1,0 +1,40 @@
+# GitHub Actions catalog validation template.
+#
+# To enable, copy this file to `.github/workflows/catalog.yml` using a token
+# with GitHub's `workflow` scope. External link checking is scheduled rather
+# than run on every push to reduce flaky failures.
+
+name: catalog-validation
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/export_resources.py
+      - run: python -m unittest discover -s tests -v
+      - run: git diff --exit-code -- data/resources.json
+
+  links:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/check_links.py --output data/link-check-report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: data/link-check-report.json

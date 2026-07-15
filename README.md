@@ -2,8 +2,6 @@
 
 ![Awesome](https://awesome.re/badge.svg)
 ![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)
-![Focus: Production AI](https://img.shields.io/badge/focus-production%20AI-blue)
-![Topics: evals guardrails governance](https://img.shields.io/badge/topics-evals%20%7C%20guardrails%20%7C%20governance-green)
 
 A curated list of tools, frameworks, guides, and templates for moving AI systems from prototype to production.
 
@@ -33,11 +31,18 @@ The related manifesto is here: [AI Production Readiness Manifesto](https://githu
 
 This means the list prioritizes resources that help teams answer production questions, not only model capability questions.
 
+- **Last manual curation review:** 2026-07-15
+- **Machine-readable catalog:** [`data/resources.json`](data/resources.json)
+- **Curation and exclusion rules:** [`docs/curation_policy.md`](docs/curation_policy.md)
+- **Maintenance record:** [`MAINTENANCE.md`](MAINTENANCE.md)
+- **CI template:** [`docs/github_actions_catalog.template.yml`](docs/github_actions_catalog.template.yml) — intentionally inactive until a GitHub token with `workflow` scope is available
+
 ---
 
 ## Contents
 
 - [Quick decision map](#quick-decision-map)
+- [Recommended starting set](docs/recommended_starting_set.md)
 - [Evaluation and testing](#evaluation-and-testing)
 - [Observability and monitoring](#observability-and-monitoring)
 - [Guardrails and safety](#guardrails-and-safety)
@@ -66,7 +71,7 @@ This means the list prioritizes resources that help teams answer production ques
 | Build production RAG or agent apps | LlamaIndex, LangChain, LangGraph, Haystack, DSPy |
 | Deploy models and services | BentoML, KServe, Seldon Core, Ray Serve, MLflow |
 
-See also [`docs/decision_map.md`](docs/decision_map.md).
+See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recommended starting set`](docs/recommended_starting_set.md).
 
 ---
 
@@ -153,7 +158,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md).
 
 ## Production readiness checklists
 
-- [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) — Checklists, scorecards, prompts and risk templates for assessing AI prototype readiness.
+- [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) — Maintainer-authored checklists, scorecards, prompts and risk templates for assessing AI prototype readiness.
 - [NIST AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/) — Use Govern/Map/Measure/Manage to structure readiness review.
 - [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) — Use as a security checklist for LLM applications.
 
@@ -161,7 +166,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md).
 
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Practical examples and guides for working with the OpenAI API.
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) — Practical Claude examples and recipes.
-- [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) — FDE discovery guide, pilot memo and readiness review templates.
+- [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit) — Maintainer-authored FDE discovery guide, pilot memo and readiness review templates.
 
 ---
 
@@ -175,18 +180,11 @@ See also [`docs/decision_map.md`](docs/decision_map.md).
 
 ---
 
-## Contribution guidelines
+## How this list is maintained
 
-Add resources that help teams move AI systems from demos into real workflows.
+Entries follow the published [`curation policy`](docs/curation_policy.md). The README is exported to a versioned machine-readable catalog, duplicate URLs are tested, and links can be probed with [`scripts/check_links.py`](scripts/check_links.py). Automated accessibility is separated from manual relevance review because some live sites block bots or rate-limit requests.
 
-Good entries should be:
-
-- practical;
-- public;
-- actively maintained or historically important;
-- relevant to evaluation, observability, guardrails, governance, documentation, human oversight, security, deployment, or production readiness.
-
-Please avoid vendor-only marketing pages without reusable technical or governance value.
+Contributions must disclose affiliation and explain the concrete production-readiness use. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 

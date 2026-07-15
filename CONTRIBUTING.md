@@ -1,25 +1,40 @@
 # Contributing
 
-Contributions are welcome.
+Contributions are welcome when they improve the production-readiness value of the list.
 
-## Add a resource
+## Before proposing a resource
 
-A good resource should be:
+Read [`docs/curation_policy.md`](docs/curation_policy.md). Confirm that the resource is public, materially useful, and not included already.
 
-- relevant to AI production readiness;
-- public and linkable;
-- useful to builders, FDEs, AI governance teams, LLMOps teams, or product teams;
-- not purely marketing.
-
-## Format
+## Entry format
 
 ```markdown
-- [Project name](https://example.com) — One-sentence description.
+- [Project name](https://example.com) — State the concrete production-readiness use in one sentence.
 ```
+
+A pull request should state:
+
+- category and intended user;
+- the production problem it addresses;
+- maintenance status or authoritative-source status;
+- whether the contributor is affiliated with the project;
+- why an existing entry does not already cover the same use.
+
+## Local checks
+
+```bash
+python scripts/export_resources.py --curated-at YYYY-MM-DD
+python -m unittest discover -s tests -v
+python scripts/check_links.py
+```
+
+Access blocks or rate limits require manual review; do not remove a resource solely because a host rejects automated requests.
 
 ## Do not add
 
-- private documents;
-- pirated materials;
-- vendor pages with no practical content;
-- projects unrelated to deployment, evaluation, governance, security, or production readiness.
+- private or pirated documents;
+- referral links;
+- generic AI directories;
+- vendor pages with no reusable technical or governance content;
+- a contributor's project without disclosing affiliation;
+- projects unrelated to deployment, evaluation, governance, security, operations, or production readiness.

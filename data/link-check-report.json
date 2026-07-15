@@ -1,0 +1,349 @@
+{
+  "checked_at": "2026-07-15T03:33:17.471997+00:00",
+  "total": 57,
+  "hard_failures": 0,
+  "results": [
+    {
+      "url": "https://airc.nist.gov/airmf-resources/playbook/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://airc.nist.gov/airmf-resources/playbook/"
+    },
+    {
+      "url": "https://arxiv.org/abs/1803.09010",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://arxiv.org/abs/1803.09010"
+    },
+    {
+      "url": "https://arxiv.org/abs/1810.03993",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://arxiv.org/abs/1810.03993"
+    },
+    {
+      "url": "https://genai.owasp.org/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://genai.owasp.org/"
+    },
+    {
+      "url": "https://github.com/Anonymousyz/ai-prototype-to-production-toolkit",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/Anonymousyz/ai-prototype-to-production-toolkit"
+    },
+    {
+      "url": "https://github.com/Arize-ai/phoenix",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/Arize-ai/phoenix"
+    },
+    {
+      "url": "https://github.com/Azure/PyRIT",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/Azure/PyRIT"
+    },
+    {
+      "url": "https://github.com/Azure/counterfit",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/Azure/counterfit"
+    },
+    {
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/EleutherAI/lm-evaluation-harness"
+    },
+    {
+      "url": "https://github.com/Giskard-AI/giskard",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/Giskard-AI/giskard-oss"
+    },
+    {
+      "url": "https://github.com/Helicone/helicone",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/Helicone/helicone"
+    },
+    {
+      "url": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/NVIDIA-NeMo/Guardrails"
+    },
+    {
+      "url": "https://github.com/NVIDIA/garak",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/NVIDIA/garak"
+    },
+    {
+      "url": "https://github.com/SeldonIO/seldon-core",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/SeldonIO/seldon-core"
+    },
+    {
+      "url": "https://github.com/Trusted-AI/AIF360",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/Trusted-AI/AIF360"
+    },
+    {
+      "url": "https://github.com/aiverify-foundation/aiverify",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/aiverify-foundation/aiverify"
+    },
+    {
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/anthropics/claude-cookbooks"
+    },
+    {
+      "url": "https://github.com/bentoml/BentoML",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/bentoml/BentoML"
+    },
+    {
+      "url": "https://github.com/comet-ml/opik",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/comet-ml/opik"
+    },
+    {
+      "url": "https://github.com/confident-ai/deepeval",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/confident-ai/deepeval"
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/crewAIInc/crewAI"
+    },
+    {
+      "url": "https://github.com/deepset-ai/haystack",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/deepset-ai/haystack"
+    },
+    {
+      "url": "https://github.com/evidentlyai/evidently",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/evidentlyai/evidently"
+    },
+    {
+      "url": "https://github.com/explodinggradients/ragas",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/vibrantlabsai/ragas"
+    },
+    {
+      "url": "https://github.com/fairlearn/fairlearn",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/fairlearn/fairlearn"
+    },
+    {
+      "url": "https://github.com/guardrails-ai/guardrails",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/guardrails-ai/guardrails"
+    },
+    {
+      "url": "https://github.com/iterative/dvc",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/treeverse/dvc"
+    },
+    {
+      "url": "https://github.com/kserve/kserve",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/kserve/kserve"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchain",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/langchain-ai/langchain"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/langchain-ai/langgraph"
+    },
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/langfuse/langfuse"
+    },
+    {
+      "url": "https://github.com/meta-llama/PurpleLlama",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/meta-llama/PurpleLlama"
+    },
+    {
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/microsoft/agent-governance-toolkit"
+    },
+    {
+      "url": "https://github.com/microsoft/autogen",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/microsoft/autogen"
+    },
+    {
+      "url": "https://github.com/microsoft/presidio",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/data-privacy-stack/presidio"
+    },
+    {
+      "url": "https://github.com/microsoft/responsible-ai-toolbox",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/microsoft/responsible-ai-toolbox"
+    },
+    {
+      "url": "https://github.com/mlflow/mlflow",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/mlflow/mlflow"
+    },
+    {
+      "url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/open-telemetry/opentelemetry-collector"
+    },
+    {
+      "url": "https://github.com/openai/evals",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/openai/evals"
+    },
+    {
+      "url": "https://github.com/openai/openai-cookbook",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/openai/openai-cookbook"
+    },
+    {
+      "url": "https://github.com/promptfoo/promptfoo",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/promptfoo/promptfoo"
+    },
+    {
+      "url": "https://github.com/protectai/llm-guard",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/protectai/llm-guard"
+    },
+    {
+      "url": "https://github.com/protectai/rebuff",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/protectai/rebuff"
+    },
+    {
+      "url": "https://github.com/ray-project/ray",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/ray-project/ray"
+    },
+    {
+      "url": "https://github.com/run-llama/llama_index",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/run-llama/llama_index"
+    },
+    {
+      "url": "https://github.com/stanfordnlp/dspy",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/stanfordnlp/dspy"
+    },
+    {
+      "url": "https://github.com/tensorflow/model-card-toolkit",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/tensorflow/model-card-toolkit"
+    },
+    {
+      "url": "https://github.com/treeverse/lakeFS",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/treeverse/lakeFS"
+    },
+    {
+      "url": "https://github.com/truera/trulens",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/truera/trulens"
+    },
+    {
+      "url": "https://github.com/whylabs/whylogs",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/whylabs/whylogs"
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/model-cards",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://huggingface.co/docs/hub/model-cards"
+    },
+    {
+      "url": "https://oecd.ai/en/ai-principles",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://oecd.ai/en/ai-principles"
+    },
+    {
+      "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+    },
+    {
+      "url": "https://pair.withgoogle.com/guidebook/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://pair.withgoogle.com/guidebook/"
+    },
+    {
+      "url": "https://pair.withgoogle.com/guidebook/chapters/user-needs/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://pair.withgoogle.com/guidebook/chapters/user-needs/"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/haxtoolkit/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.microsoft.com/en-us/haxtoolkit/"
+    },
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ]
+}
