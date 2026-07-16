@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.3.3 — 2026-07-16
+
+- Added citation metadata, security reporting guidance, and contributor conduct rules.
+- Expanded the Chinese entry point from a short summary into a usable navigation page.
+- Re-ran the 57-resource catalog export, duplicate probe, unit tests, and live-link scan without changing the catalog schema.
+
 ## v0.3.2 — 2026-07-16
 
 - Expanded the repository introduction with target readers, operating questions, and catalog-governance mechanics.

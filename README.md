@@ -2,6 +2,9 @@
 
 ![Awesome](https://awesome.re/badge.svg)
 ![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)
+![GitHub release](https://img.shields.io/github/v/release/Anonymousyz/awesome-ai-production-readiness)
+
+[中文说明](README.zh-CN.md)
 
 A curated, machine-readable reference for teams moving AI systems from prototype work into accountable operating environments.
 
