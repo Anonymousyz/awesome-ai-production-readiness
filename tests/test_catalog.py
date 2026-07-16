@@ -54,6 +54,12 @@ class CatalogTests(unittest.TestCase):
         ):
             self.assertIn("archived", rows[url]["description"].lower())
 
+    def test_production_path_connects_the_three_public_repositories(self):
+        text = (ROOT / "docs" / "production_path.md").read_text(encoding="utf-8")
+        self.assertIn("ai-prototype-to-production-toolkit", text)
+        self.assertIn("research-to-decision-toolkit", text)
+        self.assertIn("accountable human judgment", text)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -46,6 +46,7 @@ This catalog is regenerated from `README.md` and validated with `tests/test_cata
 ## Contents
 
 - [Quick decision map](#quick-decision-map)
+- [A production path, not a shopping list](docs/production_path.md)
 - [Recommended starting set](docs/recommended_starting_set.md)
 - [Evaluation and testing](#evaluation-and-testing)
 - [Observability and monitoring](#observability-and-monitoring)
@@ -191,7 +192,7 @@ Contributions must disclose affiliation and explain the concrete production-read
 
 ## Related project
 
-This list is maintained alongside the [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit). The toolkit turns the same lens into checklists, examples, schema, and a local CLI.
+This list is maintained alongside the [AI Prototype-to-Production Toolkit](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit), which turns the same lens into checklists, examples, schema, and a local CLI. When a readiness review needs to become a decision packet, use the [Research-to-Decision Toolkit](https://github.com/Anonymousyz/research-to-decision-toolkit).
 
 ---
 
