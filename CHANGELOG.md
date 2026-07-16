@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.3.2 — 2026-07-16
+
+- Expanded the repository introduction with target readers, operating questions, and catalog-governance mechanics.
+- Added a professional entry point for product leads, platform engineers, risk reviewers, and FDE / solution architects.
+- Preserved the v0.3.1 catalog format, curation rules, archived-resource boundary, and verification contract.
+
 ## v0.3.1 — 2026-07-15
 
 - Made duplicate curated URLs a hard export failure instead of silently discarding later entries.

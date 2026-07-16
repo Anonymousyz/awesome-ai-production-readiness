@@ -3,21 +3,22 @@
 ![Awesome](https://awesome.re/badge.svg)
 ![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)
 
-A curated list of tools, frameworks, guides, and templates for moving AI systems from prototype to production.
+A curated, machine-readable reference for teams moving AI systems from prototype work into accountable operating environments.
 
-The list is useful when you need to move past a demo and ask what will survive contact with production:
+The list is designed for a practical moment in AI delivery: a team has a promising model, RAG workflow, agent, or copilot, but needs to decide what must be evaluated, observed, controlled, documented, and owned before it touches a real business process. The resources cover evaluation and testing, observability, guardrails, security, responsible AI, governance, model and system documentation, human-centered design, deployment infrastructure, and FDE / applied-AI delivery practices.
 
-- evaluation and testing;
-- observability and monitoring;
-- guardrails and safety;
-- responsible AI and governance;
-- model/system documentation;
-- human-centered AI;
-- security and risk frameworks;
-- deployment infrastructure;
-- FDE / applied AI workflows.
+This is not a ranking of every popular AI library. Each entry must have a concrete production-readiness use. The catalog distinguishes maintained tools from archived historical references, rejects duplicate URLs during export, records curation policy, and publishes a machine-readable JSON catalog for reuse.
 
-> If an AI demo works, what must be true before it enters a real business workflow?
+> If an AI demo works, what evidence, controls, and operating ownership are needed before it enters a real workflow?
+
+## Who should use this list
+
+| Reader | Typical question | Where to start |
+|---|---|---|
+| Product or delivery lead | What needs to exist before a bounded pilot? | [Production path](docs/production_path.md), checklists, evaluation, and governance sections |
+| AI / platform engineer | Which tools support testing, tracing, guardrails, or deployment? | Evaluation, observability, guardrails, RAG, and MLOps sections |
+| Security, risk, or compliance reviewer | Which public frameworks and tooling help make controls reviewable? | Security and risk, responsible AI, documentation, and governance sections |
+| FDE or solution architect | How do I connect tool selection to workflow, operating owner, and human decision? | [Production path](docs/production_path.md) and the two companion repositories |
 
 ---
 
