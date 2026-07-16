@@ -6,6 +6,7 @@
 - Removed cross-category duplicates from the catalog.
 - Labeled archived upstream projects explicitly and removed archived Model Card Toolkit from the recommended starting set.
 - Added regression tests for duplicate source entries and archived recommendations.
+- Added a production workflow path that connects tool discovery, readiness evidence, operating controls, and human decision packets.
 
 ## v0.3.0 — 2026-07-15
 
