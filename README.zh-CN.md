@@ -49,18 +49,25 @@
 4. 本清单不能替代威胁建模、供应链审查、数据保护评估或人工审批。
 5. 维护者自己的项目会明确披露，不按星标数量优先推荐。
 
+## 机器可读 v2 边界
+
+- `data/resources.json` 由英文主清单确定性导出，并由公开 **JSON Schema** 约束字段与归档状态。
+- GitHub 项目的 `canonical_url` 与 `archived` 状态需要调用上游元数据核验；仅检查链接能打开不等于元数据已核验。
+- `curated_at` 是目录审查/生成日期；可空的 `last_verified` 只在每条资源均被逐项核验后填写，且不能晚于 `curated_at`。
+- 链接检查默认采用 `strict`：GitHub canonical/archive 元数据未核验即失败；`--metadata-policy soft` 只用于交互诊断，并会在报告中保留未核验数量。
+
 ## 本地验证
 
 ```bash
 python scripts/export_resources.py --curated-at YYYY-MM-DD
 python -m unittest discover -s tests -v
-python scripts/check_links.py
+python scripts/check_links.py --metadata-policy strict
 ```
 
-导出脚本会把英文 README 中的资源条目转换为 `data/resources.json`。重复 URL 会直接报错。链接检查会区分正常响应、访问限制和明确失败；自动化检查不能代替人工判断资源质量。
+导出脚本会把英文 README 中的资源条目转换为 `data/resources.json`。重复 URL、非法日期、未来日期和 `last_verified > curated_at` 会直接报错。链接检查区分正常响应、访问限制、明确失败、元数据不一致和元数据未核验；自动化检查不能替代人工判断资源质量。
 
 ## 贡献与许可
 
 提交资源前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 和 [`docs/curation_policy.md`](docs/curation_policy.md)，并披露你与项目的关系。
 
-本清单采用 CC0-1.0。各项目仍受其自身许可证约束。
+目录数据、生成的链接检查证据、文字材料和自动化代码不采用同一份笼统许可证。请以 [`LICENSE-SCOPE.md`](LICENSE-SCOPE.md) 的逐路径矩阵为准：目录/文字类路径通过 [`LICENSE`](LICENSE) 采用 CC0-1.0；Python 脚本与测试、`data/resources.schema.json`、CI 模板通过 [`LICENSE-CODE`](LICENSE-CODE) 采用 MIT。根目录 CC0 不适用于这些仅采用 MIT 的路径。各项目、名称、商标、专利及源码仍受其自身权利约束，收录不构成转授权或背书。

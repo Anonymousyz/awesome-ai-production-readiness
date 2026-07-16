@@ -25,10 +25,14 @@ A pull request should state:
 ```bash
 python scripts/export_resources.py --curated-at YYYY-MM-DD
 python -m unittest discover -s tests -v
-python scripts/check_links.py
+python scripts/check_links.py --metadata-policy strict
 ```
 
 Access blocks or rate limits require manual review; do not remove a resource solely because a host rejects automated requests.
+
+## Contribution license
+
+By submitting a contribution, you agree to the path-level license in [`LICENSE-SCOPE.md`](LICENSE-SCOPE.md): catalog entries, generated catalog evidence, prose, and repository metadata are CC0-1.0; Python files under `scripts/` or `tests/`, `data/resources.schema.json`, and the CI template are MIT under [`LICENSE-CODE`](LICENSE-CODE). The root CC0 dedication does not apply to MIT-scoped paths. You must have the right to contribute the material; links and factual metadata do not transfer third-party code, trademark, patent, or content rights.
 
 ## Do not add
 

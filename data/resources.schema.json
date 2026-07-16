@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Anonymousyz/awesome-ai-production-readiness/v0.3.4/data/resources.schema.json",
+  "$comment": "JSON Schema validates field types and per-resource status invariants. Equality of count to resources length and catalog_sha256 to the canonical serialization is enforced by the exporter and repository tests because standard JSON Schema cannot express those cross-field calculations.",
+  "title": "Awesome AI Production Readiness catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "curated_at", "catalog_sha256", "count", "resources"],
+  "properties": {
+    "schema_version": {"const": "2.0"},
+    "curated_at": {"type": "string", "format": "date"},
+    "catalog_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "count": {"type": "integer", "minimum": 0},
+    "resources": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/resource"}
+    }
+  },
+  "$defs": {
+    "resource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "url",
+        "canonical_url",
+        "description",
+        "section",
+        "type",
+        "status",
+        "archived",
+        "license",
+        "last_verified",
+        "authoritative_source"
+      ],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "format": "uri", "pattern": "^https?://"},
+        "canonical_url": {"type": "string", "format": "uri", "pattern": "^https?://"},
+        "description": {"type": "string", "minLength": 1},
+        "section": {"type": "string", "minLength": 1},
+        "type": {"type": "string", "minLength": 1},
+        "status": {"enum": ["active", "maintenance-review", "archived"]},
+        "archived": {"type": "boolean"},
+        "license": {"type": ["string", "null"]},
+        "last_verified": {"type": ["string", "null"], "format": "date"},
+        "authoritative_source": {"type": "string", "format": "uri", "pattern": "^https?://"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"status": {"const": "archived"}}, "required": ["status"]},
+          "then": {"properties": {"archived": {"const": true}}}
+        },
+        {
+          "if": {"properties": {"archived": {"const": true}}, "required": ["archived"]},
+          "then": {"properties": {"status": {"const": "archived"}}}
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,8 @@
 # Awesome AI Production Readiness
 
 ![Awesome](https://awesome.re/badge.svg)
-![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)
+![License: CC0 catalog](https://img.shields.io/badge/catalog-CC0--1.0-lightgrey.svg)
+![License: MIT code](https://img.shields.io/badge/code-MIT-yellow.svg)
 ![GitHub release](https://img.shields.io/github/v/release/Anonymousyz/awesome-ai-production-readiness)
 
 [中文说明](README.zh-CN.md)
@@ -39,11 +40,11 @@ This catalog is regenerated from `README.md` and validated with `tests/test_cata
 
 | Item | Value |
 |---|---|
-| Last manual curation review | 2026-07-15 |
+| Last manual curation review | 2026-07-16 |
 | Machine-readable catalog | [`data/resources.json`](data/resources.json) |
 | Curation and exclusion rules | [`docs/curation_policy.md`](docs/curation_policy.md) |
 | Maintenance record | [`MAINTENANCE.md`](MAINTENANCE.md) |
-| CI template | [`docs/github_actions_catalog.template.yml`](docs/github_actions_catalog.template.yml), intentionally inactive until a GitHub token with `workflow` scope is available |
+| CI template | [`docs/github_actions_catalog.template.yml`](docs/github_actions_catalog.template.yml), intentionally inactive until a repository-scoped credential can publish workflows safely |
 
 ---
 
@@ -73,9 +74,9 @@ This catalog is regenerated from `README.md` and validated with `tests/test_cata
 |---|---|
 | Test prompts, RAG outputs or agents before shipping | promptfoo, DeepEval, OpenAI Evals, RAGAS |
 | Monitor LLM traces and production behavior | Phoenix, Opik, Langfuse, Helicone |
-| Add input/output validation and guardrails | Guardrails AI, NeMo Guardrails, LLM Guard |
+| Add input/output validation and guardrails | Guardrails AI, NeMo Guardrails |
 | Identify LLM security risks | OWASP LLM Top 10, garak, PyRIT |
-| Create governance or risk documentation | NIST AI RMF, Model Card Toolkit, AI Prototype-to-Production Toolkit |
+| Create governance or risk documentation | NIST AI RMF, AI Verify, Responsible AI Toolbox, AI Prototype-to-Production Toolkit |
 | Assess fairness and model risk | Fairlearn, AIF360, Responsible AI Toolbox |
 | Build production RAG or agent apps | LlamaIndex, LangChain, LangGraph, Haystack, DSPy |
 | Deploy models and services | BentoML, KServe, Seldon Core, Ray Serve, MLflow |
@@ -89,8 +90,8 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 - [OpenAI Evals](https://github.com/openai/evals): Framework for evaluating LLMs and LLM systems; useful for custom evals and benchmark registries.
 - [promptfoo](https://github.com/promptfoo/promptfoo): Test prompts, agents and RAGs; supports red teaming, model comparison and CI/CD.
 - [DeepEval](https://github.com/confident-ai/deepeval): Pytest-like LLM evaluation framework with RAG, agentic, hallucination, toxicity and custom metrics.
-- [RAGAS](https://github.com/explodinggradients/ragas): Evaluation framework for retrieval-augmented generation applications.
-- [Giskard](https://github.com/Giskard-AI/giskard): Testing framework for ML and LLM systems with vulnerability detection.
+- [RAGAS](https://github.com/vibrantlabsai/ragas): Evaluation framework for retrieval-augmented generation applications.
+- [Giskard](https://github.com/Giskard-AI/giskard-oss): Testing framework for ML and LLM systems with vulnerability detection.
 - [Evidently](https://github.com/evidentlyai/evidently): ML and LLM evaluation, monitoring and drift reports.
 - [TruLens](https://github.com/truera/trulens): Evaluation and tracking for LLM applications.
 - [EleutherAI lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): Language model evaluation harness used across many benchmarks.
@@ -102,13 +103,13 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM engineering platform for traces, evaluations, prompt management and metrics.
 - [Helicone](https://github.com/Helicone/helicone): Open-source LLM observability platform and gateway.
 - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-collector): Observability collector; useful foundation for production telemetry.
-- [WhyLabs](https://github.com/whylabs/whylogs): Data and ML logging/profiling for monitoring pipelines.
+- [WhyLabs](https://github.com/whylabs/whylogs): **Maintenance review**; data and ML logging/profiling for monitoring pipelines, with current suitability to be checked before adoption.
 
 ## Guardrails and safety
 
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails): Programmable guardrails for LLM conversational systems.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails): Input/output guards, validators and structured output validation for LLM applications.
-- [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing prompts and outputs in LLM applications.
+- [LLM Guard](https://github.com/protectai/llm-guard): **Archived upstream**; retained as a historical prompt/output sanitization reference, not a recommendation for new integrations.
 - [Rebuff](https://github.com/protectai/rebuff): **Archived upstream**; retained as a historical prompt-injection defense reference, not a recommendation for new integrations.
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama): Meta Purple Llama safety tools including Llama Guard resources.
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/): Security risks and guidance for LLM applications.
@@ -128,7 +129,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 - [TensorFlow Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit): **Archived upstream**; retained as a historical model-card generator, not a recommendation for new integrations.
 - [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993): Foundational paper on model cards.
 - [Datasheets for Datasets](https://arxiv.org/abs/1803.09010): Foundational documentation pattern for datasets.
-- [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards): Practical model card documentation pattern used by the HF ecosystem.
+- [Hugging Face Model Cards](https://huggingface.co/docs/hub/en/model-cards): Practical model card documentation pattern used by the HF ecosystem.
 
 ## Human-centered AI
 
@@ -141,9 +142,9 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 - [NIST AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/): Suggested actions mapped to NIST AI RMF Govern, Map, Measure and Manage functions.
 - [OWASP GenAI Security Project](https://genai.owasp.org/): Security and safety resources for generative AI systems.
 - [garak](https://github.com/NVIDIA/garak): LLM vulnerability scanner.
-- [PyRIT](https://github.com/Azure/PyRIT): Python Risk Identification Tool for generative AI red teaming.
-- [Microsoft Counterfit](https://github.com/Azure/counterfit): Automation for assessing security of AI systems.
-- [Presidio](https://github.com/microsoft/presidio): Data protection and PII detection/anonymization toolkit.
+- [PyRIT](https://github.com/microsoft/PyRIT): Python Risk Identification Tool for generative AI red teaming.
+- [Microsoft Counterfit](https://github.com/Azure/counterfit): **Maintenance review**; automation for assessing security of AI systems, with upstream activity to be checked before adoption.
+- [Presidio](https://github.com/data-privacy-stack/presidio): Data protection and PII detection/anonymization toolkit.
 
 ## RAG and agent production patterns
 
@@ -162,7 +163,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 - [KServe](https://github.com/kserve/kserve): Kubernetes model inference platform.
 - [Seldon Core](https://github.com/SeldonIO/seldon-core): Model deployment and monitoring on Kubernetes.
 - [Ray Serve](https://github.com/ray-project/ray): Scalable model serving framework in Ray.
-- [DVC](https://github.com/iterative/dvc): Data and model versioning.
+- [DVC](https://github.com/treeverse/dvc): Data and model versioning.
 - [lakeFS](https://github.com/treeverse/lakeFS): Data version control for object storage.
 
 ## Production readiness checklists
@@ -172,7 +173,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 ## FDE and deployment workflow
 
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): Practical examples and guides for working with the OpenAI API.
-- [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook): Practical Claude examples and recipes.
+- [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks): Practical Claude examples and recipes.
 
 ---
 
@@ -188,7 +189,7 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 
 ## How this list is maintained
 
-Entries follow the published [`curation policy`](docs/curation_policy.md). The README is exported to a versioned machine-readable catalog, duplicate URLs are tested, and links can be probed with [`scripts/check_links.py`](scripts/check_links.py). Automated accessibility is separated from manual relevance review because some live sites block bots or rate-limit requests.
+Entries follow the published [`curation policy`](docs/curation_policy.md). The README is exported to a versioned [`machine-readable catalog`](data/resources.json) governed by a public [`JSON Schema`](data/resources.schema.json). Duplicate URLs, canonical GitHub locations, explicit archive status, and the committed export are tested. `curated_at` records the catalog review/generation date; per-resource `last_verified` is nullable and is filled only after explicit item-level verification, not automatically copied from `curated_at`. Both dates must be valid, non-future ISO dates and `last_verified` cannot be later than `curated_at`. Links and upstream metadata can be probed with [`scripts/check_links.py`](scripts/check_links.py): the default `strict` policy fails closed when GitHub canonical/archive metadata is unverified, while `--metadata-policy soft` records incomplete coverage for interactive diagnosis. Automated accessibility is separated from manual relevance review because some live sites block bots or rate-limit requests.
 
 Contributions must disclose affiliation and explain the concrete production-readiness use. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
@@ -202,4 +203,4 @@ This list is maintained alongside the [AI Prototype-to-Production Toolkit](https
 
 ## License
 
-CC0-1.0 for this curated list. Individual projects have their own licenses.
+Catalog data, generated catalog evidence, prose, and automation do not share one blanket license. See the path-by-path [`LICENSE-SCOPE.md`](LICENSE-SCOPE.md): catalog/prose paths are dedicated under CC0-1.0 via [`LICENSE`](LICENSE), while Python scripts/tests, `data/resources.schema.json`, and the CI template are licensed under MIT via [`LICENSE-CODE`](LICENSE-CODE). The root CC0 dedication does not apply to those MIT-only paths. Individual projects, names, trademarks, patents, and source code retain their own rights; inclusion does not relicense or endorse them.

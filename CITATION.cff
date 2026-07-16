@@ -7,12 +7,14 @@ authors:
 repository-code: "https://github.com/Anonymousyz/awesome-ai-production-readiness"
 url: "https://github.com/Anonymousyz/awesome-ai-production-readiness"
 license: CC0-1.0
-version: 0.3.3
+version: 0.3.4
 date-released: 2026-07-16
 abstract: >-
   A curated, machine-readable catalog of public resources for AI evaluation,
   observability, guardrails, governance, security, documentation, deployment,
-  and accountable operating workflows.
+  and accountable operating workflows. The cited catalog dataset is CC0-1.0;
+  automation, schema, and CI-template paths are MIT-licensed as documented in
+  LICENSE-SCOPE.md.
 keywords:
   - ai-production-readiness
   - llmops

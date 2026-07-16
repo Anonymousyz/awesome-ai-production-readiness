@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.3.4 — 2026-07-16
+
+- Replaced six moved GitHub URLs with their canonical repositories and marked LLM Guard as archived upstream.
+- Added machine-readable archive and maintenance-review states for LLM Guard, Rebuff, Model Card Toolkit, WhyLogs, and Counterfit.
+- Upgraded the catalog to schema 2.0 with a versioned raw JSON Schema identifier, bidirectional archive-state invariants, canonical URLs, resource types, nullable per-item verification dates, and a deterministic catalog SHA256.
+- Made the committed `data/resources.json` part of the test contract and accepted the documented em-dash contribution format.
+- Added live GitHub canonical/archive checks; the default strict policy now fails closed and reports metadata coverage instead of silently accepting rate limits or network errors.
+- Validated `curated_at` and `last_verified` as exact `YYYY-MM-DD`, real, non-future dates and enforced `last_verified <= curated_at`.
+- Scoped `GITHUB_TOKEN` / `GH_TOKEN` to `api.github.com` metadata requests only, refused authenticated redirects outside the exact `https://api.github.com:443` origin, and ensured catalog URL probes never receive authentication headers.
+- Repaired the public CI template to reuse the committed review date, explicitly inject the built-in read-only GitHub token into the strict metadata step, and upload link diagnostics even when strict verification fails.
+- Added a path-level license matrix separating CC0 catalog/prose/evidence from MIT scripts, tests, schema, and CI template, with matching English and Chinese guidance.
+- Updated the Hugging Face Model Cards entry to the stable explicit-English documentation URL; the credential-free strict report verifies 43 of 46 GitHub metadata records and exposes the remaining three as release-blocking rather than silently passing them.
+
 ## v0.3.3 — 2026-07-16
 
 - Added citation metadata, security reporting guidance, and contributor conduct rules.

@@ -1,349 +1,846 @@
 {
-  "checked_at": "2026-07-16T02:42:50.887471+00:00",
+  "checked_at": "2026-07-16T10:12:09.988554+00:00",
+  "catalog_sha256": "5dfd041794c21e0d9c7c4bb83efda51391d755b44160d43bcb0cc2c941d1473e",
+  "metadata_policy": "strict",
   "total": 57,
-  "hard_failures": 0,
+  "hard_link_failures": 0,
+  "github_metadata_total": 46,
+  "github_metadata_verified": 43,
+  "github_metadata_unverified": 3,
+  "catalog_metadata_failures": 0,
+  "hard_failures": 3,
   "results": [
     {
       "url": "https://airc.nist.gov/airmf-resources/playbook/",
       "status": 200,
       "result": "ok",
-      "final_url": "https://airc.nist.gov/airmf-resources/playbook/"
+      "final_url": "https://airc.nist.gov/airmf-resources/playbook/",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://arxiv.org/abs/1803.09010",
       "status": 200,
       "result": "ok",
-      "final_url": "https://arxiv.org/abs/1803.09010"
+      "final_url": "https://arxiv.org/abs/1803.09010",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://arxiv.org/abs/1810.03993",
       "status": 200,
       "result": "ok",
-      "final_url": "https://arxiv.org/abs/1810.03993"
+      "final_url": "https://arxiv.org/abs/1810.03993",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://genai.owasp.org/",
       "status": 200,
       "result": "ok",
-      "final_url": "https://genai.owasp.org/"
+      "final_url": "https://genai.owasp.org/",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/Anonymousyz/ai-prototype-to-production-toolkit",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/Anonymousyz/ai-prototype-to-production-toolkit"
+      "final_url": "https://github.com/Anonymousyz/ai-prototype-to-production-toolkit",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "Anonymousyz/ai-prototype-to-production-toolkit",
+        "archived": false,
+        "canonical_url": "https://github.com/Anonymousyz/ai-prototype-to-production-toolkit",
+        "pushed_at": "2026-07-16T05:14:27Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/Arize-ai/phoenix",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/Arize-ai/phoenix"
-    },
-    {
-      "url": "https://github.com/Azure/PyRIT",
-      "status": 200,
-      "result": "ok",
-      "final_url": "https://github.com/Azure/PyRIT"
+      "final_url": "https://github.com/Arize-ai/phoenix",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "Arize-ai/phoenix",
+        "archived": false,
+        "canonical_url": "https://github.com/Arize-ai/phoenix",
+        "pushed_at": "2026-07-16T06:05:56Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/Azure/counterfit",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/Azure/counterfit"
+      "final_url": "https://github.com/Azure/counterfit",
+      "catalog_status": "maintenance-review",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "Azure/counterfit",
+        "archived": false,
+        "canonical_url": "https://github.com/Azure/counterfit",
+        "pushed_at": "2025-07-18T13:29:17Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/EleutherAI/lm-evaluation-harness",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/EleutherAI/lm-evaluation-harness"
+      "final_url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "EleutherAI/lm-evaluation-harness",
+        "archived": false,
+        "canonical_url": "https://github.com/EleutherAI/lm-evaluation-harness",
+        "pushed_at": "2026-07-13T20:18:15Z"
+      },
+      "catalog_issues": []
     },
     {
-      "url": "https://github.com/Giskard-AI/giskard",
+      "url": "https://github.com/Giskard-AI/giskard-oss",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/Giskard-AI/giskard-oss"
+      "final_url": "https://github.com/Giskard-AI/giskard-oss",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "Giskard-AI/giskard-oss",
+        "archived": false,
+        "canonical_url": "https://github.com/Giskard-AI/giskard-oss",
+        "pushed_at": "2026-07-16T05:13:59Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/Helicone/helicone",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/Helicone/helicone"
+      "final_url": "https://github.com/Helicone/helicone",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "network_error",
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+      },
+      "catalog_issues": [
+        "metadata_unverified"
+      ]
     },
     {
       "url": "https://github.com/NVIDIA-NeMo/Guardrails",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/NVIDIA-NeMo/Guardrails"
+      "final_url": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "NVIDIA-NeMo/Guardrails",
+        "archived": false,
+        "canonical_url": "https://github.com/NVIDIA-NeMo/Guardrails",
+        "pushed_at": "2026-07-15T18:58:58Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/NVIDIA/garak",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/NVIDIA/garak"
+      "final_url": "https://github.com/NVIDIA/garak",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "NVIDIA/garak",
+        "archived": false,
+        "canonical_url": "https://github.com/NVIDIA/garak",
+        "pushed_at": "2026-07-14T20:29:03Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/SeldonIO/seldon-core",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/SeldonIO/seldon-core"
+      "final_url": "https://github.com/SeldonIO/seldon-core",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "SeldonIO/seldon-core",
+        "archived": false,
+        "canonical_url": "https://github.com/SeldonIO/seldon-core",
+        "pushed_at": "2026-03-23T11:39:54Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/Trusted-AI/AIF360",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/Trusted-AI/AIF360"
+      "final_url": "https://github.com/Trusted-AI/AIF360",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "Trusted-AI/AIF360",
+        "archived": false,
+        "canonical_url": "https://github.com/Trusted-AI/AIF360",
+        "pushed_at": "2026-06-15T19:55:33Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/aiverify-foundation/aiverify",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/aiverify-foundation/aiverify"
+      "final_url": "https://github.com/aiverify-foundation/aiverify",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "aiverify-foundation/aiverify",
+        "archived": false,
+        "canonical_url": "https://github.com/aiverify-foundation/aiverify",
+        "pushed_at": "2026-03-23T07:40:46Z"
+      },
+      "catalog_issues": []
     },
     {
-      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "url": "https://github.com/anthropics/claude-cookbooks",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/anthropics/claude-cookbooks"
+      "final_url": "https://github.com/anthropics/claude-cookbooks",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "blocked_or_rate_limited",
+        "status": 403
+      },
+      "catalog_issues": [
+        "metadata_unverified"
+      ]
     },
     {
       "url": "https://github.com/bentoml/BentoML",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/bentoml/BentoML"
+      "final_url": "https://github.com/bentoml/BentoML",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "bentoml/BentoML",
+        "archived": false,
+        "canonical_url": "https://github.com/bentoml/BentoML",
+        "pushed_at": "2026-07-14T17:05:31Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/comet-ml/opik",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/comet-ml/opik"
+      "final_url": "https://github.com/comet-ml/opik",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "comet-ml/opik",
+        "archived": false,
+        "canonical_url": "https://github.com/comet-ml/opik",
+        "pushed_at": "2026-07-16T10:10:29Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/confident-ai/deepeval",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/confident-ai/deepeval"
+      "final_url": "https://github.com/confident-ai/deepeval",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "confident-ai/deepeval",
+        "archived": false,
+        "canonical_url": "https://github.com/confident-ai/deepeval",
+        "pushed_at": "2026-07-14T14:51:38Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/crewAIInc/crewAI",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/crewAIInc/crewAI"
+      "final_url": "https://github.com/crewAIInc/crewAI",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "crewAIInc/crewAI",
+        "archived": false,
+        "canonical_url": "https://github.com/crewAIInc/crewAI",
+        "pushed_at": "2026-07-15T12:17:54Z"
+      },
+      "catalog_issues": []
+    },
+    {
+      "url": "https://github.com/data-privacy-stack/presidio",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/data-privacy-stack/presidio",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "data-privacy-stack/presidio",
+        "archived": false,
+        "canonical_url": "https://github.com/data-privacy-stack/presidio",
+        "pushed_at": "2026-07-16T07:08:59Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/deepset-ai/haystack",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/deepset-ai/haystack"
+      "final_url": "https://github.com/deepset-ai/haystack",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "deepset-ai/haystack",
+        "archived": false,
+        "canonical_url": "https://github.com/deepset-ai/haystack",
+        "pushed_at": "2026-07-16T08:40:30Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/evidentlyai/evidently",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/evidentlyai/evidently"
-    },
-    {
-      "url": "https://github.com/explodinggradients/ragas",
-      "status": 200,
-      "result": "ok",
-      "final_url": "https://github.com/vibrantlabsai/ragas"
+      "final_url": "https://github.com/evidentlyai/evidently",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "evidentlyai/evidently",
+        "archived": false,
+        "canonical_url": "https://github.com/evidentlyai/evidently",
+        "pushed_at": "2026-05-02T13:20:18Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/fairlearn/fairlearn",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/fairlearn/fairlearn"
+      "final_url": "https://github.com/fairlearn/fairlearn",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "fairlearn/fairlearn",
+        "archived": false,
+        "canonical_url": "https://github.com/fairlearn/fairlearn",
+        "pushed_at": "2026-07-11T00:56:06Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/guardrails-ai/guardrails",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/guardrails-ai/guardrails"
-    },
-    {
-      "url": "https://github.com/iterative/dvc",
-      "status": 200,
-      "result": "ok",
-      "final_url": "https://github.com/treeverse/dvc"
+      "final_url": "https://github.com/guardrails-ai/guardrails",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "guardrails-ai/guardrails",
+        "archived": false,
+        "canonical_url": "https://github.com/guardrails-ai/guardrails",
+        "pushed_at": "2026-07-15T21:58:21Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/kserve/kserve",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/kserve/kserve"
+      "final_url": "https://github.com/kserve/kserve",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "kserve/kserve",
+        "archived": false,
+        "canonical_url": "https://github.com/kserve/kserve",
+        "pushed_at": "2026-07-16T04:24:18Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/langchain-ai/langchain",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/langchain-ai/langchain"
+      "final_url": "https://github.com/langchain-ai/langchain",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "langchain-ai/langchain",
+        "archived": false,
+        "canonical_url": "https://github.com/langchain-ai/langchain",
+        "pushed_at": "2026-07-16T08:47:08Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/langchain-ai/langgraph",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/langchain-ai/langgraph"
+      "final_url": "https://github.com/langchain-ai/langgraph",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "langchain-ai/langgraph",
+        "archived": false,
+        "canonical_url": "https://github.com/langchain-ai/langgraph",
+        "pushed_at": "2026-07-15T07:55:11Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/langfuse/langfuse",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/langfuse/langfuse"
+      "final_url": "https://github.com/langfuse/langfuse",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "langfuse/langfuse",
+        "archived": false,
+        "canonical_url": "https://github.com/langfuse/langfuse",
+        "pushed_at": "2026-07-16T10:11:13Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/meta-llama/PurpleLlama",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/meta-llama/PurpleLlama"
+      "final_url": "https://github.com/meta-llama/PurpleLlama",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "meta-llama/PurpleLlama",
+        "archived": false,
+        "canonical_url": "https://github.com/meta-llama/PurpleLlama",
+        "pushed_at": "2026-07-01T19:06:37Z"
+      },
+      "catalog_issues": []
+    },
+    {
+      "url": "https://github.com/microsoft/PyRIT",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/microsoft/PyRIT",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "microsoft/PyRIT",
+        "archived": false,
+        "canonical_url": "https://github.com/microsoft/PyRIT",
+        "pushed_at": "2026-07-16T04:42:36Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/microsoft/agent-governance-toolkit",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/microsoft/agent-governance-toolkit"
+      "final_url": "https://github.com/microsoft/agent-governance-toolkit",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "microsoft/agent-governance-toolkit",
+        "archived": false,
+        "canonical_url": "https://github.com/microsoft/agent-governance-toolkit",
+        "pushed_at": "2026-07-16T07:08:50Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/microsoft/autogen",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/microsoft/autogen"
-    },
-    {
-      "url": "https://github.com/microsoft/presidio",
-      "status": 200,
-      "result": "ok",
-      "final_url": "https://github.com/data-privacy-stack/presidio"
+      "final_url": "https://github.com/microsoft/autogen",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "microsoft/autogen",
+        "archived": false,
+        "canonical_url": "https://github.com/microsoft/autogen",
+        "pushed_at": "2026-04-15T11:59:09Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/microsoft/responsible-ai-toolbox",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/microsoft/responsible-ai-toolbox"
+      "final_url": "https://github.com/microsoft/responsible-ai-toolbox",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "microsoft/responsible-ai-toolbox",
+        "archived": false,
+        "canonical_url": "https://github.com/microsoft/responsible-ai-toolbox",
+        "pushed_at": "2026-04-29T18:27:55Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/mlflow/mlflow",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/mlflow/mlflow"
+      "final_url": "https://github.com/mlflow/mlflow",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "mlflow/mlflow",
+        "archived": false,
+        "canonical_url": "https://github.com/mlflow/mlflow",
+        "pushed_at": "2026-07-16T09:41:55Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/open-telemetry/opentelemetry-collector",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/open-telemetry/opentelemetry-collector"
+      "final_url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "open-telemetry/opentelemetry-collector",
+        "archived": false,
+        "canonical_url": "https://github.com/open-telemetry/opentelemetry-collector",
+        "pushed_at": "2026-07-16T04:15:19Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/openai/evals",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/openai/evals"
+      "final_url": "https://github.com/openai/evals",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "openai/evals",
+        "archived": false,
+        "canonical_url": "https://github.com/openai/evals",
+        "pushed_at": "2026-04-14T15:29:57Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/openai/openai-cookbook",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/openai/openai-cookbook"
+      "final_url": "https://github.com/openai/openai-cookbook",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "blocked_or_rate_limited",
+        "status": 403
+      },
+      "catalog_issues": [
+        "metadata_unverified"
+      ]
     },
     {
       "url": "https://github.com/promptfoo/promptfoo",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/promptfoo/promptfoo"
+      "final_url": "https://github.com/promptfoo/promptfoo",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "promptfoo/promptfoo",
+        "archived": false,
+        "canonical_url": "https://github.com/promptfoo/promptfoo",
+        "pushed_at": "2026-07-16T08:04:20Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/protectai/llm-guard",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/protectai/llm-guard"
+      "final_url": "https://github.com/protectai/llm-guard",
+      "catalog_status": "archived",
+      "catalog_archived": true,
+      "github": {
+        "result": "ok",
+        "full_name": "protectai/llm-guard",
+        "archived": true,
+        "canonical_url": "https://github.com/protectai/llm-guard",
+        "pushed_at": "2026-07-08T23:58:40Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/protectai/rebuff",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/protectai/rebuff"
+      "final_url": "https://github.com/protectai/rebuff",
+      "catalog_status": "archived",
+      "catalog_archived": true,
+      "github": {
+        "result": "ok",
+        "full_name": "protectai/rebuff",
+        "archived": true,
+        "canonical_url": "https://github.com/protectai/rebuff",
+        "pushed_at": "2024-08-07T23:35:48Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/ray-project/ray",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/ray-project/ray"
+      "final_url": "https://github.com/ray-project/ray",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "ray-project/ray",
+        "archived": false,
+        "canonical_url": "https://github.com/ray-project/ray",
+        "pushed_at": "2026-07-16T07:01:07Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/run-llama/llama_index",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/run-llama/llama_index"
+      "final_url": "https://github.com/run-llama/llama_index",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "run-llama/llama_index",
+        "archived": false,
+        "canonical_url": "https://github.com/run-llama/llama_index",
+        "pushed_at": "2026-07-16T05:24:11Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/stanfordnlp/dspy",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/stanfordnlp/dspy"
+      "final_url": "https://github.com/stanfordnlp/dspy",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "stanfordnlp/dspy",
+        "archived": false,
+        "canonical_url": "https://github.com/stanfordnlp/dspy",
+        "pushed_at": "2026-07-15T03:48:25Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/tensorflow/model-card-toolkit",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/tensorflow/model-card-toolkit"
+      "final_url": "https://github.com/tensorflow/model-card-toolkit",
+      "catalog_status": "archived",
+      "catalog_archived": true,
+      "github": {
+        "result": "ok",
+        "full_name": "tensorflow/model-card-toolkit",
+        "archived": true,
+        "canonical_url": "https://github.com/tensorflow/model-card-toolkit",
+        "pushed_at": "2023-07-26T12:05:00Z"
+      },
+      "catalog_issues": []
+    },
+    {
+      "url": "https://github.com/treeverse/dvc",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/treeverse/dvc",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "treeverse/dvc",
+        "archived": false,
+        "canonical_url": "https://github.com/treeverse/dvc",
+        "pushed_at": "2026-07-14T02:03:01Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/treeverse/lakeFS",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/treeverse/lakeFS"
+      "final_url": "https://github.com/treeverse/lakeFS",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "treeverse/lakeFS",
+        "archived": false,
+        "canonical_url": "https://github.com/treeverse/lakeFS",
+        "pushed_at": "2026-07-11T01:11:29Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/truera/trulens",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/truera/trulens"
+      "final_url": "https://github.com/truera/trulens",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "truera/trulens",
+        "archived": false,
+        "canonical_url": "https://github.com/truera/trulens",
+        "pushed_at": "2026-07-11T01:04:48Z"
+      },
+      "catalog_issues": []
+    },
+    {
+      "url": "https://github.com/vibrantlabsai/ragas",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://github.com/vibrantlabsai/ragas",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "vibrantlabsai/ragas",
+        "archived": false,
+        "canonical_url": "https://github.com/vibrantlabsai/ragas",
+        "pushed_at": "2026-02-24T07:47:19Z"
+      },
+      "catalog_issues": []
     },
     {
       "url": "https://github.com/whylabs/whylogs",
       "status": 200,
       "result": "ok",
-      "final_url": "https://github.com/whylabs/whylogs"
+      "final_url": "https://github.com/whylabs/whylogs",
+      "catalog_status": "maintenance-review",
+      "catalog_archived": false,
+      "github": {
+        "result": "ok",
+        "full_name": "whylabs/whylogs",
+        "archived": false,
+        "canonical_url": "https://github.com/whylabs/whylogs",
+        "pushed_at": "2025-01-10T20:14:49Z"
+      },
+      "catalog_issues": []
     },
     {
-      "url": "https://huggingface.co/docs/hub/model-cards",
+      "url": "https://huggingface.co/docs/hub/en/model-cards",
       "status": 200,
       "result": "ok",
-      "final_url": "https://huggingface.co/docs/hub/model-cards"
+      "final_url": "https://huggingface.co/docs/hub/en/model-cards",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://oecd.ai/en/ai-principles",
       "status": 200,
       "result": "ok",
-      "final_url": "https://oecd.ai/en/ai-principles"
+      "final_url": "https://oecd.ai/en/ai-principles",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
       "status": 200,
       "result": "ok",
-      "final_url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+      "final_url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://pair.withgoogle.com/guidebook/",
       "status": 200,
       "result": "ok",
-      "final_url": "https://pair.withgoogle.com/guidebook/"
+      "final_url": "https://pair.withgoogle.com/guidebook/",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://pair.withgoogle.com/guidebook/chapters/user-needs/",
       "status": 200,
       "result": "ok",
-      "final_url": "https://pair.withgoogle.com/guidebook/chapters/user-needs/"
+      "final_url": "https://pair.withgoogle.com/guidebook/chapters/user-needs/",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://www.microsoft.com/en-us/haxtoolkit/",
       "status": 200,
       "result": "ok",
-      "final_url": "https://www.microsoft.com/en-us/haxtoolkit/"
+      "final_url": "https://www.microsoft.com/en-us/haxtoolkit/",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     },
     {
       "url": "https://www.nist.gov/itl/ai-risk-management-framework",
       "status": 200,
       "result": "ok",
-      "final_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      "final_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
     }
   ]
 }
