@@ -2,6 +2,10 @@
 
 [English README](README.md)
 
+<p align="center">
+  <img src="assets/catalog-map.svg" alt="57 项 AI 生产准备度资源，覆盖评估、治理、安全、可观测与部署" width="100%">
+</p>
+
 本仓库收录 57 项公开资源，帮助团队判断 AI 原型进入真实业务流程前还缺什么。范围包括评估、可观测性、安全护栏、治理、文档、部署和运行责任。
 
 它不是热门项目排行榜，也不代表维护者对所列项目作安全背书。资源是否适用，仍需结合你的业务流程、数据边界和风险等级判断。
@@ -68,6 +72,6 @@ python scripts/check_links.py --metadata-policy strict
 
 ## 贡献与许可
 
-提交资源前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 和 [`docs/curation_policy.md`](docs/curation_policy.md)，并披露你与项目的关系。
+提交资源前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 和 [`docs/curation_policy.md`](docs/curation_policy.md)，并披露你与项目的关系。也可以直接使用[结构化资源建议表单](https://github.com/Anonymousyz/awesome-ai-production-readiness/issues/new?template=resource-suggestion.yml)。
 
 目录数据、生成的链接检查证据、文字材料和自动化代码不采用同一份笼统许可证。请以 [`LICENSE-SCOPE.md`](LICENSE-SCOPE.md) 的逐路径矩阵为准：目录/文字类路径通过 [`LICENSE`](LICENSE) 采用 CC0-1.0；Python 脚本与测试、`data/resources.schema.json`、CI 模板通过 [`LICENSE-CODE`](LICENSE-CODE) 采用 MIT。根目录 CC0 不适用于这些仅采用 MIT 的路径。各项目、名称、商标、专利及源码仍受其自身权利约束，收录不构成转授权或背书。

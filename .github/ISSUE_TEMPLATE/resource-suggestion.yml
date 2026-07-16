@@ -1,0 +1,53 @@
+name: Resource suggestion
+description: Suggest a public resource that closes a specific AI production-readiness gap.
+title: "[resource] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: canonical_url
+    attributes:
+      label: Canonical public URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: gap
+    attributes:
+      label: Production-readiness gap
+      options:
+        - Evaluation and testing
+        - Observability and monitoring
+        - Guardrails and safety
+        - Responsible AI and governance
+        - Model or system documentation
+        - Human-centered AI
+        - Security and risk frameworks
+        - RAG and agent production patterns
+        - Deployment and MLOps infrastructure
+        - Production readiness checklist
+        - FDE and deployment workflow
+    validations:
+      required: true
+  - type: textarea
+    id: concrete_use
+    attributes:
+      label: Concrete production use
+      description: Explain what decision, control, evidence or operating gap this resource helps close.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Curation checks
+      options:
+        - label: I checked that the URL is public and canonical.
+          required: true
+        - label: I disclosed any affiliation with the project.
+          required: true
+        - label: I reviewed the curation policy and this is not a generic popularity submission.
+          required: true

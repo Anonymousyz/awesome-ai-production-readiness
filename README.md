@@ -7,6 +7,23 @@
 
 [中文说明](README.zh-CN.md)
 
+<p align="center">
+  <img src="assets/catalog-map.svg" alt="57 verified AI production-readiness resources across evaluation, governance, security, observability and deployment" width="100%">
+</p>
+
+## Find a starting point in 30 seconds
+
+| Your immediate gap | Start here |
+|---|---|
+| Prompt, RAG or agent evaluation | [Evaluation and testing](#evaluation-and-testing) |
+| Tracing and production behavior | [Observability and monitoring](#observability-and-monitoring) |
+| Input/output controls | [Guardrails and safety](#guardrails-and-safety) |
+| Threats and control review | [Security and risk frameworks](#security-and-risk-frameworks) |
+| Governance documentation | [Responsible AI and governance](#responsible-ai-and-governance) |
+| A complete handoff path | [Production path](docs/production_path.md) |
+
+The [JSON catalog](data/resources.json) is machine-readable and the [strict release report](data/link-check-report.json) records link and GitHub metadata coverage. Suggest a resource through the [structured issue form](https://github.com/Anonymousyz/awesome-ai-production-readiness/issues/new?template=resource-suggestion.yml).
+
 A curated, machine-readable reference for teams moving AI systems from prototype work into accountable operating environments.
 
 The list is designed for a practical moment in AI delivery: a team has a promising model, RAG workflow, agent, or copilot, but needs to decide what must be evaluated, observed, controlled, documented, and owned before it touches a real business process. The resources cover evaluation and testing, observability, guardrails, security, responsible AI, governance, model and system documentation, human-centered design, deployment infrastructure, and FDE / applied-AI delivery practices.
