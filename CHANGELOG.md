@@ -9,6 +9,7 @@
 - Added a Cursor cloud-agent environment definition (`.cursor/environment.json`).
 - Extended the license matrix to cover `assets/` (CC0) and the `.github/` workflow and issue-form files (MIT), which were added after the matrix was written.
 - Added the active-workflow badge, a bilingual maintenance-pipeline diagram, and a Chinese gap-to-tool quick map.
+- Added a downstream consumption guide for the machine-readable catalog (`docs/using_the_catalog.md`) and an `AGENTS.md` that binds coding agents to the catalog invariants (README as single source, generated files, path-scoped licensing, changelog discipline).
 
 ## v0.3.4 — 2026-07-16
 

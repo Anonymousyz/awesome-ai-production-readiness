@@ -23,7 +23,7 @@
 | Governance documentation | [Responsible AI and governance](#responsible-ai-and-governance) |
 | A complete handoff path | [Production path](docs/production_path.md) |
 
-The [JSON catalog](data/resources.json) is machine-readable and the [strict release report](data/link-check-report.json) records link and GitHub metadata coverage. Suggest a resource through the [structured issue form](https://github.com/Anonymousyz/awesome-ai-production-readiness/issues/new?template=resource-suggestion.yml).
+The [JSON catalog](data/resources.json) is machine-readable ([how to consume it](docs/using_the_catalog.md)) and the [strict release report](data/link-check-report.json) records link and GitHub metadata coverage. Suggest a resource through the [structured issue form](https://github.com/Anonymousyz/awesome-ai-production-readiness/issues/new?template=resource-suggestion.yml).
 
 A curated, machine-readable reference for teams moving AI systems from prototype work into accountable operating environments.
 

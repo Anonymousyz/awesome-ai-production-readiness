@@ -24,7 +24,7 @@
 | 需要快速选择一组基础工具 | [推荐起步组合](docs/recommended_starting_set.md) |
 | 已经知道缺口，准备查具体工具 | [英文主清单](README.md#quick-decision-map) |
 | 想了解资源为什么被收录或移除 | [收录规则](docs/curation_policy.md) |
-| 想复用机器可读数据 | [`data/resources.json`](data/resources.json) |
+| 想复用机器可读数据 | [`data/resources.json`](data/resources.json),用法见[消费指南](docs/using_the_catalog.md) |
 
 ## 按缺口选工具
 
