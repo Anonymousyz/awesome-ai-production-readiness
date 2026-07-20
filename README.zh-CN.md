@@ -1,5 +1,11 @@
 # Awesome AI 生产准备度资源清单
 
+![Awesome](https://awesome.re/badge.svg)
+![目录数据: CC0-1.0](https://img.shields.io/badge/catalog-CC0--1.0-lightgrey.svg)
+![代码: MIT](https://img.shields.io/badge/code-MIT-yellow.svg)
+![GitHub release](https://img.shields.io/github/v/release/Anonymousyz/awesome-ai-production-readiness)
+[![catalog-validation](https://github.com/Anonymousyz/awesome-ai-production-readiness/actions/workflows/catalog.yml/badge.svg)](https://github.com/Anonymousyz/awesome-ai-production-readiness/actions/workflows/catalog.yml)
+
 [English README](README.md)
 
 <p align="center">
@@ -19,6 +25,21 @@
 | 已经知道缺口，准备查具体工具 | [英文主清单](README.md#quick-decision-map) |
 | 想了解资源为什么被收录或移除 | [收录规则](docs/curation_policy.md) |
 | 想复用机器可读数据 | [`data/resources.json`](data/resources.json) |
+
+## 按缺口选工具
+
+| 你需要… | 先看 |
+|---|---|
+| 上线前测试 Prompt、RAG 输出或 Agent | promptfoo、DeepEval、OpenAI Evals、RAGAS |
+| 监控 LLM 调用链路与线上行为 | Phoenix、Opik、Langfuse、Helicone |
+| 给输入输出加校验与护栏 | Guardrails AI、NeMo Guardrails |
+| 排查 LLM 安全风险 | OWASP LLM Top 10、garak、PyRIT |
+| 编写治理或风险文档 | NIST AI RMF、AI Verify、Responsible AI Toolbox |
+| 评估公平性与模型风险 | Fairlearn、AIF360、Responsible AI Toolbox |
+| 搭建生产级 RAG 或 Agent 应用 | LlamaIndex、LangChain、LangGraph、Haystack、DSPy |
+| 部署模型与推理服务 | BentoML、KServe、Seldon Core、Ray Serve、MLflow |
+
+具体条目、归档状态与说明以[英文主清单](README.md)为准;目录数据以机器可读的 [`data/resources.json`](data/resources.json) 为唯一导出源,避免双语清单各自漂移。
 
 ## 资源覆盖范围
 
@@ -59,6 +80,21 @@
 - GitHub 项目的 `canonical_url` 与 `archived` 状态需要调用上游元数据核验；仅检查链接能打开不等于元数据已核验。
 - `curated_at` 是目录审查/生成日期；可空的 `last_verified` 只在每条资源均被逐项核验后填写，且不能晚于 `curated_at`。
 - 链接检查默认采用 `strict`：GitHub canonical/archive 元数据未核验即失败；`--metadata-policy soft` 只用于交互诊断，并会在报告中保留未核验数量。
+
+## 目录如何保持可信
+
+英文 README 是唯一录入口;其余全部由脚本、测试和 CI 联动锁定:
+
+```mermaid
+flowchart LR
+    R["README.md<br/><i>人工收录条目,<br/>11 个注册分节</i>"] -->|"export_resources.py<br/>确定性导出,遇到未注册<br/>分节直接报错"| J["data/resources.json<br/><i>schema 2.0,SHA256,<br/>57 条</i>"]
+    J --- S["resources.schema.json<br/><i>公开 JSON Schema</i>"]
+    R --> T["测试(30 项)<br/><i>提交产物必须与重新导出<br/>逐字节一致</i>"]
+    J --> T
+    T --> CI["每次 push 触发 CI<br/><i>catalog.yml</i>"]
+    CI -->|"每周 + 手动,<br/>strict 策略"| L["check_links.py<br/><i>57 个 URL + 46 条<br/>GitHub 元数据</i>"]
+    L --> REP["link-check-report.json<br/><i>提交入库的发布证据:<br/>0 项硬失败</i>"]
+```
 
 ## 本地验证
 

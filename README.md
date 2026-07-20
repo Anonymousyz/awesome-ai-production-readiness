@@ -4,6 +4,7 @@
 ![License: CC0 catalog](https://img.shields.io/badge/catalog-CC0--1.0-lightgrey.svg)
 ![License: MIT code](https://img.shields.io/badge/code-MIT-yellow.svg)
 ![GitHub release](https://img.shields.io/github/v/release/Anonymousyz/awesome-ai-production-readiness)
+[![catalog-validation](https://github.com/Anonymousyz/awesome-ai-production-readiness/actions/workflows/catalog.yml/badge.svg)](https://github.com/Anonymousyz/awesome-ai-production-readiness/actions/workflows/catalog.yml)
 
 [中文说明](README.zh-CN.md)
 
@@ -205,6 +206,19 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 ---
 
 ## How this list is maintained
+
+Every claim the catalog makes is backed by a pipeline you can rerun:
+
+```mermaid
+flowchart LR
+    R["README.md<br/><i>curated entries,<br/>11 registered sections</i>"] -->|"scripts/export_resources.py<br/>deterministic, fails on<br/>unregistered sections"| J["data/resources.json<br/><i>schema 2.0, SHA256,<br/>57 entries</i>"]
+    J --- S["data/resources.schema.json<br/><i>public JSON Schema</i>"]
+    R --> T["tests (30)<br/><i>committed artifact must equal<br/>a fresh re-export, byte for byte</i>"]
+    J --> T
+    T --> CI["CI on every push<br/><i>.github/workflows/catalog.yml</i>"]
+    CI -->|"weekly + manual,<br/>strict policy"| L["scripts/check_links.py<br/><i>57 URLs + 46 GitHub<br/>metadata records</i>"]
+    L --> REP["data/link-check-report.json<br/><i>committed release evidence:<br/>0 hard failures</i>"]
+```
 
 Entries follow the published [`curation policy`](docs/curation_policy.md). The README is exported to a versioned [`machine-readable catalog`](data/resources.json) governed by a public [`JSON Schema`](data/resources.schema.json). Duplicate URLs, canonical GitHub locations, explicit archive status, and the committed export are tested. `curated_at` records the catalog review/generation date; per-resource `last_verified` is nullable and is filled only after explicit item-level verification, not automatically copied from `curated_at`. Both dates must be valid, non-future ISO dates and `last_verified` cannot be later than `curated_at`. Links and upstream metadata can be probed with [`scripts/check_links.py`](scripts/check_links.py): the default `strict` policy fails closed when GitHub canonical/archive metadata is unverified, while `--metadata-policy soft` records incomplete coverage for interactive diagnosis. Automated accessibility is separated from manual relevance review because some live sites block bots or rate-limit requests.
 
