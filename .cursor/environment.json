@@ -1,0 +1,4 @@
+{
+  "name": "awesome-ai-production-readiness",
+  "install": "python3 -m pip install jsonschema"
+}

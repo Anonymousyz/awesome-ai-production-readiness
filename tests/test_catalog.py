@@ -139,6 +139,28 @@ class CatalogTests(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["name"], "One")
 
+    def test_resource_bullets_under_unregistered_sections_are_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            readme = Path(tmp) / "README.md"
+            readme.write_text(
+                "## Brand-new section\n"
+                "- [One](https://example.org/tool): must not be silently dropped\n",
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(ValueError, "unregistered section"):
+                parse_resources(readme, TEST_DATE)
+
+    def test_committed_catalog_validates_against_public_json_schema(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest("jsonschema is not installed")
+        catalog = json.loads((ROOT / "data" / "resources.json").read_text(encoding="utf-8"))
+        schema = json.loads((ROOT / "data" / "resources.schema.json").read_text(encoding="utf-8"))
+        jsonschema.Draft202012Validator.check_schema(schema)
+        validator = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
+        validator.validate(catalog)
+
     def test_archived_and_maintenance_resources_are_machine_labeled(self):
         rows = {row["url"]: row for row in self.rows()}
         for url in (

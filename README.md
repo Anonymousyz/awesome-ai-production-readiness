@@ -61,7 +61,7 @@ This catalog is regenerated from `README.md` and validated with `tests/test_cata
 | Machine-readable catalog | [`data/resources.json`](data/resources.json) |
 | Curation and exclusion rules | [`docs/curation_policy.md`](docs/curation_policy.md) |
 | Maintenance record | [`MAINTENANCE.md`](MAINTENANCE.md) |
-| CI template | [`docs/github_actions_catalog.template.yml`](docs/github_actions_catalog.template.yml), intentionally inactive until a repository-scoped credential can publish workflows safely |
+| CI | Active workflow [`.github/workflows/catalog.yml`](.github/workflows/catalog.yml): every push rebuilds the catalog and runs the tests; live link checks stay on a weekly schedule and manual dispatch. Source template: [`docs/github_actions_catalog.template.yml`](docs/github_actions_catalog.template.yml) |
 
 ---
 

@@ -68,8 +68,12 @@ def parse_resources(readme: Path, verified_at: str | None = None) -> list[dict]:
             section = raw[3:].strip()
             continue
         match = RESOURCE_RE.match(raw.strip())
-        if not match or section not in SECTION_TYPES:
+        if not match:
             continue
+        if section not in SECTION_TYPES:
+            raise ValueError(
+                f"resource bullet under unregistered section {section!r}: {match.group(1)}"
+            )
         name, url, description = match.groups()
         key = normalize_url(url)
         if key in seen:

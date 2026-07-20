@@ -16,7 +16,7 @@
 - [ ] Add maintenance and license metadata for high-priority entries
 - [ ] Add role paths for FDE, LLMOps, GRC, product, and security users
 - [ ] Add compact comparison tables where criteria are genuinely comparable
-- [ ] Enable active CI after workflow publication permission is available
+- [x] Enable active CI after workflow publication permission is available
 
 ## v1.0 — Community-maintained list
 

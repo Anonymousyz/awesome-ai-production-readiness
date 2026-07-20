@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Published the catalog-validation workflow to `.github/workflows/catalog.yml` from the documented template, now that a workflow-scope credential is available: pushes and pull requests rebuild the catalog and run the tests; the strict live link check stays on the weekly schedule and manual dispatch.
+- Made the exporter fail on resource bullets under unregistered sections instead of silently dropping them, and added a regression test for that failure mode.
+- Added an optional test that validates the committed `data/resources.json` against the public JSON Schema when `jsonschema` is installed; CI installs it, and the test skips cleanly in bare local environments.
+- Added a Cursor cloud-agent environment definition (`.cursor/environment.json`).
+
 ## v0.3.4 — 2026-07-16
 
 - Replaced six moved GitHub URLs with their canonical repositories and marked LLM Guard as archived upstream.
