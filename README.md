@@ -54,7 +54,7 @@ The related manifesto is here: [AI Production Readiness Manifesto](https://githu
 
 Resources stay on the list when they help answer production questions instead of stopping at model capability.
 
-This catalog is regenerated from `README.md` and validated with `tests/test_catalog.py`.
+This catalog is regenerated from `README.md` and validated by the test suite in [`tests/`](tests/) (30 tests).
 
 | Item | Value |
 |---|---|
@@ -221,6 +221,8 @@ flowchart LR
 ```
 
 Entries follow the published [`curation policy`](docs/curation_policy.md). The README is exported to a versioned [`machine-readable catalog`](data/resources.json) governed by a public [`JSON Schema`](data/resources.schema.json). Duplicate URLs, canonical GitHub locations, explicit archive status, and the committed export are tested. `curated_at` records the catalog review/generation date; per-resource `last_verified` is nullable and is filled only after explicit item-level verification, not automatically copied from `curated_at`. Both dates must be valid, non-future ISO dates and `last_verified` cannot be later than `curated_at`. Links and upstream metadata can be probed with [`scripts/check_links.py`](scripts/check_links.py): the default `strict` policy fails closed when GitHub canonical/archive metadata is unverified, while `--metadata-policy soft` records incomplete coverage for interactive diagnosis. Automated accessibility is separated from manual relevance review because some live sites block bots or rate-limit requests.
+
+Running the strict metadata check locally works best with a `GITHUB_TOKEN` environment variable set; without it, GitHub API rate limits usually surface as unverified-metadata failures (CI injects the built-in token automatically).
 
 Contributions must disclose affiliation and explain the concrete production-readiness use. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 

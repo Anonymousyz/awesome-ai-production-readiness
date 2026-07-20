@@ -1,8 +1,6 @@
-# GitHub Actions catalog validation template.
-#
-# To enable, copy this file to `.github/workflows/catalog.yml` using a token
-# with GitHub's `workflow` scope. External link checking is scheduled rather
-# than run on every push to reduce flaky failures.
+# Active catalog validation workflow, published from
+# `docs/github_actions_catalog.template.yml`. External link checking is
+# scheduled rather than run on every push to reduce flaky failures.
 
 name: catalog-validation
 

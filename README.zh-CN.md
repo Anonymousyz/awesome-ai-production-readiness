@@ -1,4 +1,4 @@
-# Awesome AI 生产准备度资源清单
+# Awesome AI 生产就绪度资源清单
 
 ![Awesome](https://awesome.re/badge.svg)
 ![目录数据: CC0-1.0](https://img.shields.io/badge/catalog-CC0--1.0-lightgrey.svg)
@@ -9,7 +9,7 @@
 [English README](README.md)
 
 <p align="center">
-  <img src="assets/catalog-map.svg" alt="57 项 AI 生产准备度资源，覆盖评估、治理、安全、可观测与部署" width="100%">
+  <img src="assets/catalog-map.svg" alt="57 项 AI 生产就绪度资源，覆盖评估、治理、安全、可观测与部署" width="100%">
 </p>
 
 本仓库收录 57 项公开资源，帮助团队判断 AI 原型进入真实业务流程前还缺什么。范围包括评估、可观测性、安全护栏、治理、文档、部署和运行责任。
@@ -34,12 +34,12 @@
 | 监控 LLM 调用链路与线上行为 | Phoenix、Opik、Langfuse、Helicone |
 | 给输入输出加校验与护栏 | Guardrails AI、NeMo Guardrails |
 | 排查 LLM 安全风险 | OWASP LLM Top 10、garak、PyRIT |
-| 编写治理或风险文档 | NIST AI RMF、AI Verify、Responsible AI Toolbox |
+| 编写治理或风险文档 | NIST AI RMF、AI Verify、Responsible AI Toolbox、AI Prototype-to-Production Toolkit |
 | 评估公平性与模型风险 | Fairlearn、AIF360、Responsible AI Toolbox |
 | 搭建生产级 RAG 或 Agent 应用 | LlamaIndex、LangChain、LangGraph、Haystack、DSPy |
 | 部署模型与推理服务 | BentoML、KServe、Seldon Core、Ray Serve、MLflow |
 
-具体条目、归档状态与说明以[英文主清单](README.md)为准;目录数据以机器可读的 [`data/resources.json`](data/resources.json) 为唯一导出源,避免双语清单各自漂移。
+具体条目、归档状态与说明以[英文主清单](README.md)为准;机器可读数据统一由英文 README 确定性导出为 [`data/resources.json`](data/resources.json),避免双语清单各自漂移。
 
 ## 资源覆盖范围
 
@@ -104,7 +104,7 @@ python -m unittest discover -s tests -v
 python scripts/check_links.py --metadata-policy strict
 ```
 
-导出脚本会把英文 README 中的资源条目转换为 `data/resources.json`。重复 URL、非法日期、未来日期和 `last_verified > curated_at` 会直接报错。链接检查区分正常响应、访问限制、明确失败、元数据不一致和元数据未核验；自动化检查不能替代人工判断资源质量。
+导出脚本会把英文 README 中的资源条目转换为 `data/resources.json`。重复 URL、非法日期、未来日期和 `last_verified > curated_at` 会直接报错。链接检查区分正常响应、访问限制、明确失败、元数据不一致和元数据未核验；自动化检查不能替代人工判断资源质量。本地运行 strict 元数据核验前建议先设置 `GITHUB_TOKEN` 环境变量，否则容易因 GitHub API 限流报“元数据未核验”。
 
 ## 贡献与许可
 
