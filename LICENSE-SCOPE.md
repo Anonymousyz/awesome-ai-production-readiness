@@ -9,6 +9,7 @@ The CC0-1.0 dedication in [`LICENSE`](LICENSE) applies to original catalog data,
 - `README.md` and `README.zh-CN.md`;
 - top-level governance and citation documents such as `CHANGELOG.md`, `CONTRIBUTING.md`, `MAINTENANCE.md`, and `CITATION.cff`;
 - Markdown files under `docs/`;
+- images and generated artwork under `assets/`;
 - `data/resources.json`;
 - `data/link-check-report.json`.
 
@@ -20,7 +21,8 @@ The MIT license in [`LICENSE-CODE`](LICENSE-CODE) applies only to:
 - Python files under `tests/`;
 - `data/resources.schema.json`;
 - `docs/github_actions_catalog.template.yml`;
-- `.github/workflows/catalog.yml` after the template is enabled.
+- `.github/workflows/catalog.yml`;
+- YAML issue-form definitions under `.github/ISSUE_TEMPLATE/`.
 
 The root CC0 dedication does not apply to these MIT-scoped paths. These files are not dual-licensed unless an individual file explicitly says otherwise.
 
