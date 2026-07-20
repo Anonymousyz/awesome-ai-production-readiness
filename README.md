@@ -8,7 +8,7 @@
 [中文说明](README.zh-CN.md)
 
 <p align="center">
-  <img src="assets/catalog-map.svg" alt="57 verified AI production-readiness resources across evaluation, governance, security, observability and deployment" width="100%">
+  <img src="assets/catalog-map.svg" alt="Catalog map: 57 AI production-readiness resources across evaluation, governance, security, observability and deployment; links and GitHub metadata pass the strict release-time check" width="100%">
 </p>
 
 ## Find a starting point in 30 seconds

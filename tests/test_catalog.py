@@ -245,6 +245,14 @@ class CatalogTests(unittest.TestCase):
             + report["github_metadata_unverified"],
         )
 
+    def test_committed_link_report_is_a_clean_release_gate(self):
+        report = json.loads((ROOT / "data" / "link-check-report.json").read_text(encoding="utf-8"))
+        catalog = json.loads((ROOT / "data" / "resources.json").read_text(encoding="utf-8"))
+        self.assertEqual(report["catalog_sha256"], catalog["catalog_sha256"])
+        self.assertEqual(report["total"], catalog["count"])
+        self.assertEqual(report["hard_failures"], 0)
+        self.assertEqual(report["github_metadata_unverified"], 0)
+
     def test_ci_template_reuses_committed_date_and_always_uploads_report(self):
         text = (ROOT / "docs" / "github_actions_catalog.template.yml").read_text(encoding="utf-8")
         self.assertIn("data/resources.json", text)
