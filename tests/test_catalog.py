@@ -1,5 +1,6 @@
 import hashlib
 import json
+import re
 from datetime import date, timedelta
 from pathlib import Path
 import sys
@@ -230,6 +231,24 @@ class CatalogTests(unittest.TestCase):
         self.assertIn("permissions:\n  contents: read", workflow)
         self.assertIn("GITHUB_TOKEN: ${{ github.token }}", workflow)
         self.assertIn("if: always()", workflow)
+
+    def test_readme_relative_links_resolve(self):
+        # Guards reader navigation in both languages: renames must fail here
+        # instead of silently breaking README links. Fenced code is stripped;
+        # images and directory links are included. Catalog entries use
+        # absolute URLs, so they are filtered out with the other externals.
+        link = re.compile(r"!?\[[^\]]*\]\(<?([^)<>\s]+?)>?(?:\s+\"[^\"]*\")?\)")
+        for name in ("README.md", "README.zh-CN.md"):
+            text = (ROOT / name).read_text(encoding="utf-8-sig")
+            text = re.sub(r"^```.*?^```", "", text, flags=re.DOTALL | re.MULTILINE)
+            targets = link.findall(text)
+            self.assertTrue(targets, name)
+            for target in targets:
+                if target.startswith(("http://", "https://", "mailto:", "#")):
+                    continue
+                path = target.split("#", 1)[0]
+                with self.subTest(readme=name, link=target):
+                    self.assertTrue((ROOT / path).exists(), f"{name}: broken relative link {target}")
 
     def test_committed_link_report_exposes_metadata_coverage(self):
         report = json.loads((ROOT / "data" / "link-check-report.json").read_text(encoding="utf-8"))
