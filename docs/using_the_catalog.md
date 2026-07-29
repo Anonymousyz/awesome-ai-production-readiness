@@ -1,6 +1,6 @@
 # Using the machine-readable catalog
 
-`data/resources.json` is the canonical machine-readable export of this list. It is regenerated from `README.md` by `scripts/export_resources.py`, validated by the public JSON Schema, and checked in CI on every push, so downstream consumers can rely on its structure.
+`data/resources.json` is the canonical machine-readable export of this list. `scripts/export_resources.py` regenerates it from `README.md`; the public JSON Schema and CI checks keep the declared schema and export format stable. Consumers should still pin a version and evaluate whether each listed resource fits their own use case.
 
 ## Where to fetch it
 
