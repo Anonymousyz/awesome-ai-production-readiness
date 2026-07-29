@@ -12,7 +12,7 @@
   <img src="assets/catalog-map.svg" alt="Catalog map for AI production-readiness resources across evaluation, governance, security, observability, and deployment" width="100%">
 </p>
 
-## Start with the question you need to answer
+## Start here
 
 | Your immediate gap | Start here |
 |---|---|
@@ -31,7 +31,7 @@ Use the list when a model, RAG workflow, agent, or copilot needs evaluation, obs
 
 Each entry serves a concrete production-readiness question. The catalog records curation policy, distinguishes maintained projects from archived historical references, rejects duplicate URLs during export, and publishes reusable JSON data.
 
-> Before a demo enters a workflow, identify the evidence, controls, and operating ownership the team still needs.
+Use the catalog to identify the evidence, controls, and operating ownership a team still needs before a demo enters a business workflow.
 
 ## Who should use this list
 
@@ -62,7 +62,6 @@ This catalog is regenerated from `README.md` and validated by the test suite in 
 
 ## Contents
 
-- [Quick decision map](#quick-decision-map)
 - [Production path](docs/production_path.md)
 - [Recommended starting set](docs/recommended_starting_set.md)
 - [Evaluation and testing](#evaluation-and-testing)
@@ -77,23 +76,6 @@ This catalog is regenerated from `README.md` and validated by the test suite in 
 - [Production readiness checklists](#production-readiness-checklists)
 - [FDE and deployment workflow](#fde-and-deployment-workflow)
 - [Chinese intro](#chinese-intro)
-
----
-
-## Quick decision map
-
-| If you need to... | Start with |
-|---|---|
-| Test prompts, RAG outputs or agents before shipping | promptfoo, DeepEval, OpenAI Evals, RAGAS |
-| Monitor LLM traces and production behavior | Phoenix, Opik, Langfuse, Helicone |
-| Add input/output validation and guardrails | Guardrails AI, NeMo Guardrails |
-| Identify LLM security risks | OWASP LLM Top 10, garak, PyRIT |
-| Create governance or risk documentation | NIST AI RMF, AI Verify, Responsible AI Toolbox, AI Prototype-to-Production Toolkit |
-| Assess fairness and model risk | Fairlearn, AIF360, Responsible AI Toolbox |
-| Build production RAG or agent apps | LlamaIndex, LangChain, LangGraph, Haystack, DSPy |
-| Deploy models and services | BentoML, KServe, Seldon Core, Ray Serve, MLflow |
-
-See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recommended starting set`](docs/recommended_starting_set.md).
 
 ---
 
@@ -191,17 +173,17 @@ See also [`docs/decision_map.md`](docs/decision_map.md) and the compact [`recomm
 
 ## Chinese intro
 
-这个仓库不是泛泛的 AI 资料清单，而是聚焦一个问题：
+这个目录聚焦一个实际问题：
 
 > 一个 AI demo 如果要进入真实业务流程，还差哪些生产化条件？
 
-适合关注：AI 落地、FDE、LLMOps、AI 治理、模型评估、RAG/Agent 生产化、受监管行业 AI 部署的人收藏。
+适用于需要推进 AI 落地、FDE、LLMOps、AI 治理、模型评估、RAG 或 Agent 生产化，以及受监管行业 AI 部署的读者。
 
 ---
 
 ## How this list is maintained
 
-Every claim the catalog makes is backed by a pipeline you can rerun:
+The catalog's export, schema, and link metadata are produced by a pipeline you can rerun:
 
 ```mermaid
 flowchart LR
