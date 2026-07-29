@@ -2,7 +2,7 @@
 
 | Situation | Useful tools/frameworks | Why |
 |---|---|---|
-| You have a demo and need to decide pilot vs production | AI Prototype-to-Production Toolkit, NIST AI RMF | Turn vague readiness into scored evidence and risk actions |
+| You have a demo and need to decide pilot vs production | AI Prototype-to-Production Toolkit, NIST AI RMF | Turn an undefined readiness question into a structured review and a list of risk actions |
 | You need prompt/RAG/agent regression tests | promptfoo, DeepEval, OpenAI Evals, RAGAS | Convert model behavior into repeatable tests |
 | You need production tracing | Phoenix, Opik, Langfuse, Helicone | Trace prompts, responses, latency, cost, failures and feedback |
 | You need to reduce prompt injection and unsafe outputs | Guardrails AI, NeMo Guardrails, garak, PyRIT | Test and constrain input/output behavior |
