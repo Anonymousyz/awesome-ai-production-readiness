@@ -21,8 +21,8 @@
 | 当前问题 | 建议入口 |
 |---|---|
 | 不知道原型离受控试点还差什么 | [生产路径](docs/production_path.md) |
-| 需要快速选择一组基础工具 | [推荐起步组合](docs/recommended_starting_set.md) |
-| 已经知道缺口，准备查具体工具 | [英文主清单](README.md#quick-decision-map) |
+| 需要选择一组基础工具 | [推荐起步组合](docs/recommended_starting_set.md) |
+| 已经知道缺口，准备查具体工具 | [英文主清单](README.md#start-here) |
 | 想了解资源为什么被收录或移除 | [收录规则](docs/curation_policy.md) |
 | 想复用机器可读数据 | [`data/resources.json`](data/resources.json)，用法见[消费指南](docs/using_the_catalog.md) |
 
@@ -83,7 +83,7 @@
 
 ## 目录如何保持可信
 
-英文 README 是唯一录入口;其余全部由脚本、测试和 CI 联动锁定:
+英文 README 是唯一的人工录入来源。导出脚本、测试和 CI 分别检查生成结果、数据结构与提交一致性：
 
 ```mermaid
 flowchart LR
