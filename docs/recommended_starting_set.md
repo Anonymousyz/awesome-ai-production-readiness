@@ -5,7 +5,7 @@ This is a compact orientation path, not a ranking.
 | Need | Start with | Why |
 |---|---|---|
 | Risk-management vocabulary | [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) | Connects governance, context, measurement, and risk treatment |
-| LLM security taxonomy | [OWASP GenAI Security Project](https://genai.owasp.org/) | Provides current threat categories and practical guidance |
+| LLM security taxonomy | [OWASP GenAI Security Project](https://genai.owasp.org/) | Provides a published threat taxonomy and practical guidance |
 | Prompt/RAG/agent regression testing | [promptfoo](https://github.com/promptfoo/promptfoo) | Developer-friendly evaluation and red-team workflow |
 | Model and system evaluation | [OpenAI Evals](https://github.com/openai/evals) | Reusable eval registry and custom-evaluation patterns |
 | Production tracing | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | Open-source tracing, datasets, experiments, and evals |
