@@ -9,10 +9,10 @@
 [中文说明](README.zh-CN.md)
 
 <p align="center">
-  <img src="assets/catalog-map.svg" alt="Catalog map: 57 AI production-readiness resources across evaluation, governance, security, observability and deployment; links and GitHub metadata pass the strict release-time check" width="100%">
+  <img src="assets/catalog-map.svg" alt="Catalog map for AI production-readiness resources across evaluation, governance, security, observability, and deployment" width="100%">
 </p>
 
-## Find a starting point in 30 seconds
+## Start with the question you need to answer
 
 | Your immediate gap | Start here |
 |---|---|
@@ -27,11 +27,11 @@ The [JSON catalog](data/resources.json) is machine-readable ([how to consume it]
 
 A curated, machine-readable reference for teams moving AI systems from prototype work into accountable operating environments.
 
-The list is designed for a practical moment in AI delivery: a team has a promising model, RAG workflow, agent, or copilot, but needs to decide what must be evaluated, observed, controlled, documented, and owned before it touches a real business process. The resources cover evaluation and testing, observability, guardrails, security, responsible AI, governance, model and system documentation, human-centered design, deployment infrastructure, and FDE / applied-AI delivery practices.
+Use the list when a model, RAG workflow, agent, or copilot needs evaluation, observability, controls, documentation, and named operating ownership before it affects a business process. It covers testing, observability, guardrails, security, responsible AI, governance, model and system documentation, human-centered design, deployment infrastructure, and applied-AI delivery practices.
 
-This is not a ranking of every popular AI library. Each entry must have a concrete production-readiness use. The catalog distinguishes maintained tools from archived historical references, rejects duplicate URLs during export, records curation policy, and publishes a machine-readable JSON catalog for reuse.
+Each entry serves a concrete production-readiness question. The catalog records curation policy, distinguishes maintained projects from archived historical references, rejects duplicate URLs during export, and publishes reusable JSON data.
 
-> If an AI demo works, what evidence, controls, and operating ownership are needed before it enters a real workflow?
+> Before a demo enters a workflow, identify the evidence, controls, and operating ownership the team still needs.
 
 ## Who should use this list
 
@@ -44,15 +44,9 @@ This is not a ranking of every popular AI library. Each entry must have a concre
 
 ---
 
-## Production readiness lens
+## Production-readiness lens
 
-The curation lens is intentionally narrow:
-
-> **Production-ready AI = workflow + evidence + governance + accountability.**
-
-The related manifesto is here: [AI Production Readiness Manifesto](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit/blob/main/MANIFESTO.md).
-
-Resources stay on the list when they help answer production questions instead of stopping at model capability.
+This catalog keeps resources that help a team define the workflow, gather evidence, design controls, and assign operating responsibility. The related [AI Production Readiness Manifesto](https://github.com/Anonymousyz/ai-prototype-to-production-toolkit/blob/main/MANIFESTO.md) explains that framing in more detail.
 
 This catalog is regenerated from `README.md` and validated by the test suite in [`tests/`](tests/) (30 tests).
 
@@ -69,7 +63,7 @@ This catalog is regenerated from `README.md` and validated by the test suite in 
 ## Contents
 
 - [Quick decision map](#quick-decision-map)
-- [A production path, not a shopping list](docs/production_path.md)
+- [Production path](docs/production_path.md)
 - [Recommended starting set](docs/recommended_starting_set.md)
 - [Evaluation and testing](#evaluation-and-testing)
 - [Observability and monitoring](#observability-and-monitoring)
