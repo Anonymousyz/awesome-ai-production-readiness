@@ -9,12 +9,12 @@
 [English README](README.md)
 
 <p align="center">
-  <img src="assets/catalog-map.svg" alt="57 项 AI 生产就绪度资源，覆盖评估、治理、安全、可观测与部署" width="100%">
+  <img src="assets/catalog-map.svg" alt="AI 生产就绪度资源目录，覆盖评估、治理、安全、可观测与部署" width="100%">
 </p>
 
-本仓库收录 57 项公开资源，帮助团队判断 AI 原型进入真实业务流程前还缺什么。范围包括评估、可观测性、安全护栏、治理、文档、部署和运行责任。
+本仓库按评估、可观测性、安全护栏、治理、文档、部署和运行责任整理公开资源，供团队查找 AI 原型进入真实业务流程前所需的工具与标准。
 
-它不是热门项目排行榜，也不代表维护者对所列项目作安全背书。资源是否适用，仍需结合你的业务流程、数据边界和风险等级判断。
+收录说明、归档状态和机器可读数据见下文。使用某项资源前，仍应结合业务流程、数据边界和风险等级作出判断。
 
 ## 从问题开始
 
@@ -24,7 +24,7 @@
 | 需要快速选择一组基础工具 | [推荐起步组合](docs/recommended_starting_set.md) |
 | 已经知道缺口，准备查具体工具 | [英文主清单](README.md#quick-decision-map) |
 | 想了解资源为什么被收录或移除 | [收录规则](docs/curation_policy.md) |
-| 想复用机器可读数据 | [`data/resources.json`](data/resources.json),用法见[消费指南](docs/using_the_catalog.md) |
+| 想复用机器可读数据 | [`data/resources.json`](data/resources.json)，用法见[消费指南](docs/using_the_catalog.md) |
 
 ## 按缺口选工具
 
@@ -39,7 +39,7 @@
 | 搭建生产级 RAG 或 Agent 应用 | LlamaIndex、LangChain、LangGraph、Haystack、DSPy |
 | 部署模型与推理服务 | BentoML、KServe、Seldon Core、Ray Serve、MLflow |
 
-具体条目、归档状态与说明以[英文主清单](README.md)为准;机器可读数据统一由英文 README 确定性导出为 [`data/resources.json`](data/resources.json),避免双语清单各自漂移。
+具体条目、归档状态与说明以[英文主清单](README.md)为准。机器可读数据由英文 README 确定性导出为 [`data/resources.json`](data/resources.json)，避免双语清单分别维护而产生差异。
 
 ## 资源覆盖范围
 
@@ -50,16 +50,16 @@
 - AI 治理、风险管理和系统文档；
 - 公平性、可解释性和以人为本设计；
 - 模型服务、MLOps 和部署基础设施；
-- FDE、解决方案架构和运行交接。
+- 前沿部署、解决方案架构和运行交接。
 
-## 三个仓库如何配合
+## 与配套工具的衔接
 
 ```text
-查找工具和标准
+按缺口查找工具与标准
   → Awesome AI Production Readiness
-判断原型是否具备进入受控流程的结构条件
+把原型的流程、数据、评估和运行条件放进评审材料
   → AI Prototype-to-Production Toolkit
-把评估结果变成可供负责人审议的决策包
+把评审材料整理为可供负责人审议的决策包
   → Research-to-Decision Toolkit
 ```
 
