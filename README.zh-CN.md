@@ -8,6 +8,8 @@
 
 [English README](README.md)
 
+项目状态、适用边界和反馈方式见 [STATUS.md](STATUS.md)。
+
 <p align="center">
   <img src="assets/catalog-map.svg" alt="AI 生产就绪度资源目录，覆盖评估、治理、安全、可观测与部署" width="100%">
 </p>
