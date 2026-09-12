@@ -116,6 +116,7 @@ This catalog is regenerated from `README.md` and validated by the test suite in 
 - [Fairlearn](https://github.com/fairlearn/fairlearn): Python package for assessing and improving fairness of machine learning systems.
 - [AIF360](https://github.com/Trusted-AI/AIF360): IBM toolkit with fairness metrics and bias mitigation algorithms.
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Agent governance, policy enforcement, zero-trust identity, sandboxing and reliability engineering.
+- [Gram](https://github.com/speakeasy-api/gram): Open-source AI control plane for governing agent and MCP access with policy enforcement, role-scoped permissions, and searchable activity records.
 - [AI Verify](https://github.com/aiverify-foundation/aiverify): AI governance testing framework and software toolkit.
 - [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework): AI Risk Management Framework.
 - [OECD AI Principles](https://oecd.ai/en/ai-principles): International AI policy principles.

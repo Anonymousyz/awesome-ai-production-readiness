@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
-  "curated_at": "2026-07-16",
-  "catalog_sha256": "5dfd041794c21e0d9c7c4bb83efda51391d755b44160d43bcb0cc2c941d1473e",
-  "count": 57,
+  "curated_at": "2026-09-13",
+  "catalog_sha256": "97af35dedc3fdf715316a4dcdae13142f3508a148a6981e9ded50bc72f3d1fb3",
+  "count": 58,
   "resources": [
     {
       "name": "OpenAI Evals",
@@ -315,6 +315,19 @@
       "license": null,
       "last_verified": null,
       "authoritative_source": "https://github.com/microsoft/agent-governance-toolkit"
+    },
+    {
+      "name": "Gram",
+      "url": "https://github.com/speakeasy-api/gram",
+      "canonical_url": "https://github.com/speakeasy-api/gram",
+      "description": "Open-source AI control plane for governing agent and MCP access with policy enforcement, role-scoped permissions, and searchable activity records.",
+      "section": "Responsible AI and governance",
+      "type": "governance-resource",
+      "status": "active",
+      "archived": false,
+      "license": null,
+      "last_verified": null,
+      "authoritative_source": "https://github.com/speakeasy-api/gram"
     },
     {
       "name": "AI Verify",
