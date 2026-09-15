@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "curated_at": "2026-09-13",
-  "catalog_sha256": "97af35dedc3fdf715316a4dcdae13142f3508a148a6981e9ded50bc72f3d1fb3",
+  "curated_at": "2026-09-15",
+  "catalog_sha256": "311c0eb9cd2cdf7c3c88189a94f7a3605e2d74071c0813d241ff190b2e38c134",
   "count": 58,
   "resources": [
     {
@@ -317,17 +317,17 @@
       "authoritative_source": "https://github.com/microsoft/agent-governance-toolkit"
     },
     {
-      "name": "Gram",
-      "url": "https://github.com/speakeasy-api/gram",
-      "canonical_url": "https://github.com/speakeasy-api/gram",
-      "description": "Open-source AI control plane for governing agent and MCP access with policy enforcement, role-scoped permissions, and searchable activity records.",
+      "name": "Speakeasy Agent Control Plane",
+      "url": "https://www.speakeasy.com/product/ai-control-plane",
+      "canonical_url": "https://www.speakeasy.com/product/ai-control-plane",
+      "description": "Centralizes agent and MCP access, enforces role-scoped policy, and records tool calls, permission changes, and access events.",
       "section": "Responsible AI and governance",
       "type": "governance-resource",
       "status": "active",
       "archived": false,
       "license": null,
       "last_verified": null,
-      "authoritative_source": "https://github.com/speakeasy-api/gram"
+      "authoritative_source": "https://www.speakeasy.com/product/ai-control-plane"
     },
     {
       "name": "AI Verify",

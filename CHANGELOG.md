@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Added Gram to Responsible AI and governance as a public control-plane resource for governing agent and MCP access.
+- Added Speakeasy Agent Control Plane to Responsible AI and governance as a public control-plane resource for governing agent and MCP access.
 - Published the catalog-validation workflow to `.github/workflows/catalog.yml` from the documented template, now that a workflow-scope credential is available: pushes and pull requests rebuild the catalog and run the tests; the strict live link check stays on the weekly schedule and manual dispatch.
 - Refreshed `data/link-check-report.json` from the first authenticated strict run on CI infrastructure: 57/57 URLs respond, 46/46 GitHub metadata records verified, zero hard failures. This replaces the credential-free 2026-07-16 report that carried three unverified records, and the committed report is now tested as a clean release gate (`hard_failures == 0`, matching catalog SHA256).
 - Made the exporter fail on resource bullets under unregistered sections instead of silently dropping them, and added a regression test for that failure mode.
