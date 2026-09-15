@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
-  "curated_at": "2026-07-16",
-  "catalog_sha256": "5dfd041794c21e0d9c7c4bb83efda51391d755b44160d43bcb0cc2c941d1473e",
-  "count": 57,
+  "curated_at": "2026-09-15",
+  "catalog_sha256": "311c0eb9cd2cdf7c3c88189a94f7a3605e2d74071c0813d241ff190b2e38c134",
+  "count": 58,
   "resources": [
     {
       "name": "OpenAI Evals",
@@ -315,6 +315,19 @@
       "license": null,
       "last_verified": null,
       "authoritative_source": "https://github.com/microsoft/agent-governance-toolkit"
+    },
+    {
+      "name": "Speakeasy Agent Control Plane",
+      "url": "https://www.speakeasy.com/product/ai-control-plane",
+      "canonical_url": "https://www.speakeasy.com/product/ai-control-plane",
+      "description": "Centralizes agent and MCP access, enforces role-scoped policy, and records tool calls, permission changes, and access events.",
+      "section": "Responsible AI and governance",
+      "type": "governance-resource",
+      "status": "active",
+      "archived": false,
+      "license": null,
+      "last_verified": null,
+      "authoritative_source": "https://www.speakeasy.com/product/ai-control-plane"
     },
     {
       "name": "AI Verify",

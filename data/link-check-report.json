@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-07-20T16:40:19.227995+00:00",
-  "catalog_sha256": "5dfd041794c21e0d9c7c4bb83efda51391d755b44160d43bcb0cc2c941d1473e",
+  "checked_at": "2026-09-15T21:18:44.024426+00:00",
+  "catalog_sha256": "311c0eb9cd2cdf7c3c88189a94f7a3605e2d74071c0813d241ff190b2e38c134",
   "metadata_policy": "strict",
-  "total": 57,
+  "total": 58,
   "hard_link_failures": 0,
   "github_metadata_total": 46,
   "github_metadata_verified": 46,
@@ -58,7 +58,7 @@
         "full_name": "Anonymousyz/ai-prototype-to-production-toolkit",
         "archived": false,
         "canonical_url": "https://github.com/Anonymousyz/ai-prototype-to-production-toolkit",
-        "pushed_at": "2026-07-16T17:20:25Z"
+        "pushed_at": "2026-07-29T20:09:44Z"
       },
       "catalog_issues": []
     },
@@ -74,7 +74,7 @@
         "full_name": "Arize-ai/phoenix",
         "archived": false,
         "canonical_url": "https://github.com/Arize-ai/phoenix",
-        "pushed_at": "2026-07-20T16:27:57Z"
+        "pushed_at": "2026-09-15T21:11:55Z"
       },
       "catalog_issues": []
     },
@@ -106,7 +106,7 @@
         "full_name": "EleutherAI/lm-evaluation-harness",
         "archived": false,
         "canonical_url": "https://github.com/EleutherAI/lm-evaluation-harness",
-        "pushed_at": "2026-07-13T20:18:15Z"
+        "pushed_at": "2026-09-14T10:51:06Z"
       },
       "catalog_issues": []
     },
@@ -122,7 +122,7 @@
         "full_name": "Giskard-AI/giskard-oss",
         "archived": false,
         "canonical_url": "https://github.com/Giskard-AI/giskard-oss",
-        "pushed_at": "2026-07-20T09:39:05Z"
+        "pushed_at": "2026-09-14T15:11:33Z"
       },
       "catalog_issues": []
     },
@@ -138,7 +138,7 @@
         "full_name": "Helicone/helicone",
         "archived": false,
         "canonical_url": "https://github.com/Helicone/helicone",
-        "pushed_at": "2026-07-05T05:55:34Z"
+        "pushed_at": "2026-09-13T21:07:49Z"
       },
       "catalog_issues": []
     },
@@ -154,7 +154,7 @@
         "full_name": "NVIDIA-NeMo/Guardrails",
         "archived": false,
         "canonical_url": "https://github.com/NVIDIA-NeMo/Guardrails",
-        "pushed_at": "2026-07-20T16:06:24Z"
+        "pushed_at": "2026-09-14T23:32:40Z"
       },
       "catalog_issues": []
     },
@@ -170,7 +170,7 @@
         "full_name": "NVIDIA/garak",
         "archived": false,
         "canonical_url": "https://github.com/NVIDIA/garak",
-        "pushed_at": "2026-07-14T20:29:03Z"
+        "pushed_at": "2026-09-09T18:56:03Z"
       },
       "catalog_issues": []
     },
@@ -234,7 +234,7 @@
         "full_name": "anthropics/claude-cookbooks",
         "archived": false,
         "canonical_url": "https://github.com/anthropics/claude-cookbooks",
-        "pushed_at": "2026-07-13T17:54:30Z"
+        "pushed_at": "2026-09-03T22:18:29Z"
       },
       "catalog_issues": []
     },
@@ -250,7 +250,7 @@
         "full_name": "bentoml/BentoML",
         "archived": false,
         "canonical_url": "https://github.com/bentoml/BentoML",
-        "pushed_at": "2026-07-20T09:03:04Z"
+        "pushed_at": "2026-09-07T17:43:01Z"
       },
       "catalog_issues": []
     },
@@ -266,7 +266,7 @@
         "full_name": "comet-ml/opik",
         "archived": false,
         "canonical_url": "https://github.com/comet-ml/opik",
-        "pushed_at": "2026-07-20T16:24:36Z"
+        "pushed_at": "2026-09-15T19:22:28Z"
       },
       "catalog_issues": []
     },
@@ -282,7 +282,7 @@
         "full_name": "confident-ai/deepeval",
         "archived": false,
         "canonical_url": "https://github.com/confident-ai/deepeval",
-        "pushed_at": "2026-07-20T10:32:06Z"
+        "pushed_at": "2026-09-14T15:16:15Z"
       },
       "catalog_issues": []
     },
@@ -298,7 +298,7 @@
         "full_name": "crewAIInc/crewAI",
         "archived": false,
         "canonical_url": "https://github.com/crewAIInc/crewAI",
-        "pushed_at": "2026-07-20T16:33:24Z"
+        "pushed_at": "2026-09-15T20:09:43Z"
       },
       "catalog_issues": []
     },
@@ -314,7 +314,7 @@
         "full_name": "data-privacy-stack/presidio",
         "archived": false,
         "canonical_url": "https://github.com/data-privacy-stack/presidio",
-        "pushed_at": "2026-07-16T07:08:59Z"
+        "pushed_at": "2026-09-15T13:29:09Z"
       },
       "catalog_issues": []
     },
@@ -330,7 +330,7 @@
         "full_name": "deepset-ai/haystack",
         "archived": false,
         "canonical_url": "https://github.com/deepset-ai/haystack",
-        "pushed_at": "2026-07-20T16:37:18Z"
+        "pushed_at": "2026-09-15T10:48:59Z"
       },
       "catalog_issues": []
     },
@@ -346,7 +346,7 @@
         "full_name": "evidentlyai/evidently",
         "archived": false,
         "canonical_url": "https://github.com/evidentlyai/evidently",
-        "pushed_at": "2026-05-02T13:20:18Z"
+        "pushed_at": "2026-09-11T09:03:28Z"
       },
       "catalog_issues": []
     },
@@ -362,7 +362,7 @@
         "full_name": "fairlearn/fairlearn",
         "archived": false,
         "canonical_url": "https://github.com/fairlearn/fairlearn",
-        "pushed_at": "2026-07-17T20:12:22Z"
+        "pushed_at": "2026-09-15T19:07:08Z"
       },
       "catalog_issues": []
     },
@@ -378,7 +378,7 @@
         "full_name": "guardrails-ai/guardrails",
         "archived": false,
         "canonical_url": "https://github.com/guardrails-ai/guardrails",
-        "pushed_at": "2026-07-17T20:17:50Z"
+        "pushed_at": "2026-09-13T01:35:49Z"
       },
       "catalog_issues": []
     },
@@ -394,7 +394,7 @@
         "full_name": "kserve/kserve",
         "archived": false,
         "canonical_url": "https://github.com/kserve/kserve",
-        "pushed_at": "2026-07-20T16:01:54Z"
+        "pushed_at": "2026-09-15T18:41:50Z"
       },
       "catalog_issues": []
     },
@@ -410,7 +410,7 @@
         "full_name": "langchain-ai/langchain",
         "archived": false,
         "canonical_url": "https://github.com/langchain-ai/langchain",
-        "pushed_at": "2026-07-20T15:42:40Z"
+        "pushed_at": "2026-09-15T20:04:05Z"
       },
       "catalog_issues": []
     },
@@ -426,7 +426,7 @@
         "full_name": "langchain-ai/langgraph",
         "archived": false,
         "canonical_url": "https://github.com/langchain-ai/langgraph",
-        "pushed_at": "2026-07-20T14:54:38Z"
+        "pushed_at": "2026-09-15T16:04:25Z"
       },
       "catalog_issues": []
     },
@@ -442,7 +442,7 @@
         "full_name": "langfuse/langfuse",
         "archived": false,
         "canonical_url": "https://github.com/langfuse/langfuse",
-        "pushed_at": "2026-07-20T16:31:49Z"
+        "pushed_at": "2026-09-15T19:43:16Z"
       },
       "catalog_issues": []
     },
@@ -458,7 +458,7 @@
         "full_name": "meta-llama/PurpleLlama",
         "archived": false,
         "canonical_url": "https://github.com/meta-llama/PurpleLlama",
-        "pushed_at": "2026-07-01T19:06:37Z"
+        "pushed_at": "2026-08-18T01:15:09Z"
       },
       "catalog_issues": []
     },
@@ -474,7 +474,7 @@
         "full_name": "microsoft/PyRIT",
         "archived": false,
         "canonical_url": "https://github.com/microsoft/PyRIT",
-        "pushed_at": "2026-07-20T14:52:19Z"
+        "pushed_at": "2026-09-15T21:15:21Z"
       },
       "catalog_issues": []
     },
@@ -490,7 +490,7 @@
         "full_name": "microsoft/agent-governance-toolkit",
         "archived": false,
         "canonical_url": "https://github.com/microsoft/agent-governance-toolkit",
-        "pushed_at": "2026-07-20T14:23:59Z"
+        "pushed_at": "2026-09-15T20:54:24Z"
       },
       "catalog_issues": []
     },
@@ -522,7 +522,7 @@
         "full_name": "microsoft/responsible-ai-toolbox",
         "archived": false,
         "canonical_url": "https://github.com/microsoft/responsible-ai-toolbox",
-        "pushed_at": "2026-04-29T18:27:55Z"
+        "pushed_at": "2026-09-10T08:26:39Z"
       },
       "catalog_issues": []
     },
@@ -538,7 +538,7 @@
         "full_name": "mlflow/mlflow",
         "archived": false,
         "canonical_url": "https://github.com/mlflow/mlflow",
-        "pushed_at": "2026-07-20T13:40:35Z"
+        "pushed_at": "2026-09-15T21:00:17Z"
       },
       "catalog_issues": []
     },
@@ -554,7 +554,7 @@
         "full_name": "open-telemetry/opentelemetry-collector",
         "archived": false,
         "canonical_url": "https://github.com/open-telemetry/opentelemetry-collector",
-        "pushed_at": "2026-07-20T16:38:27Z"
+        "pushed_at": "2026-09-15T21:14:27Z"
       },
       "catalog_issues": []
     },
@@ -586,7 +586,7 @@
         "full_name": "openai/openai-cookbook",
         "archived": false,
         "canonical_url": "https://github.com/openai/openai-cookbook",
-        "pushed_at": "2026-07-20T12:56:00Z"
+        "pushed_at": "2026-09-15T20:50:55Z"
       },
       "catalog_issues": []
     },
@@ -602,7 +602,7 @@
         "full_name": "promptfoo/promptfoo",
         "archived": false,
         "canonical_url": "https://github.com/promptfoo/promptfoo",
-        "pushed_at": "2026-07-20T16:22:38Z"
+        "pushed_at": "2026-09-15T21:16:34Z"
       },
       "catalog_issues": []
     },
@@ -650,7 +650,7 @@
         "full_name": "ray-project/ray",
         "archived": false,
         "canonical_url": "https://github.com/ray-project/ray",
-        "pushed_at": "2026-07-20T14:59:03Z"
+        "pushed_at": "2026-09-15T20:56:56Z"
       },
       "catalog_issues": []
     },
@@ -666,7 +666,7 @@
         "full_name": "run-llama/llama_index",
         "archived": false,
         "canonical_url": "https://github.com/run-llama/llama_index",
-        "pushed_at": "2026-07-20T15:51:59Z"
+        "pushed_at": "2026-09-15T01:48:43Z"
       },
       "catalog_issues": []
     },
@@ -682,7 +682,7 @@
         "full_name": "stanfordnlp/dspy",
         "archived": false,
         "canonical_url": "https://github.com/stanfordnlp/dspy",
-        "pushed_at": "2026-07-20T15:18:05Z"
+        "pushed_at": "2026-09-15T18:02:55Z"
       },
       "catalog_issues": []
     },
@@ -714,7 +714,7 @@
         "full_name": "treeverse/dvc",
         "archived": false,
         "canonical_url": "https://github.com/treeverse/dvc",
-        "pushed_at": "2026-07-14T02:03:01Z"
+        "pushed_at": "2026-09-14T18:56:34Z"
       },
       "catalog_issues": []
     },
@@ -730,7 +730,7 @@
         "full_name": "treeverse/lakeFS",
         "archived": false,
         "canonical_url": "https://github.com/treeverse/lakeFS",
-        "pushed_at": "2026-07-20T12:02:23Z"
+        "pushed_at": "2026-09-15T20:21:05Z"
       },
       "catalog_issues": []
     },
@@ -746,7 +746,7 @@
         "full_name": "truera/trulens",
         "archived": false,
         "canonical_url": "https://github.com/truera/trulens",
-        "pushed_at": "2026-07-20T16:22:41Z"
+        "pushed_at": "2026-09-15T14:32:52Z"
       },
       "catalog_issues": []
     },
@@ -804,7 +804,7 @@
       "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
       "status": 200,
       "result": "ok",
-      "final_url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+      "final_url": "https://owasp.org/projects/top-10-for-large-language-model-applications",
       "catalog_status": "active",
       "catalog_archived": false,
       "catalog_issues": []
@@ -841,6 +841,15 @@
       "status": 200,
       "result": "ok",
       "final_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "catalog_status": "active",
+      "catalog_archived": false,
+      "catalog_issues": []
+    },
+    {
+      "url": "https://www.speakeasy.com/product/ai-control-plane",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.speakeasy.com/product/ai-control-plane",
       "catalog_status": "active",
       "catalog_archived": false,
       "catalog_issues": []
