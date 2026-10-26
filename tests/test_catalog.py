@@ -19,9 +19,9 @@ class CatalogTests(unittest.TestCase):
     def rows(self):
         return parse_resources(ROOT / "README.md")
 
-    def test_catalog_has_fifty_seven_unique_resources(self):
+    def test_catalog_has_fifty_eight_unique_resources(self):
         rows = self.rows()
-        self.assertEqual(len(rows), 57)
+        self.assertEqual(len(rows), 58)
         self.assertEqual(len(rows), len({row["url"].rstrip("/").lower() for row in rows}))
 
     def test_each_resource_has_stable_machine_fields(self):
@@ -53,7 +53,7 @@ class CatalogTests(unittest.TestCase):
         generated = build_catalog(ROOT / "README.md", committed["curated_at"])
         self.assertEqual(committed, generated)
         self.assertEqual(committed["schema_version"], "2.0")
-        self.assertEqual(committed["count"], 57)
+        self.assertEqual(committed["count"], 58)
         serialized = json.dumps(committed["resources"], ensure_ascii=False, sort_keys=True, separators=(",", ":"))
         self.assertEqual(committed["catalog_sha256"], hashlib.sha256(serialized.encode("utf-8")).hexdigest())
 
