@@ -119,6 +119,7 @@ This catalog is regenerated from `README.md` and validated by the test suite in 
 - [AI Verify](https://github.com/aiverify-foundation/aiverify): AI governance testing framework and software toolkit.
 - [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework): AI Risk Management Framework.
 - [OECD AI Principles](https://oecd.ai/en/ai-principles): International AI policy principles.
+- [Speakeasy control plane](https://github.com/speakeasy-api/gram) — Govern production MCP tool access using enterprise identity permissions and tool-call audit records.
 
 ## Model/system documentation
 

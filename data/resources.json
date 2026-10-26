@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
-  "curated_at": "2026-07-16",
-  "catalog_sha256": "5dfd041794c21e0d9c7c4bb83efda51391d755b44160d43bcb0cc2c941d1473e",
-  "count": 57,
+  "curated_at": "2026-10-26",
+  "catalog_sha256": "6224ece4daddbadbb5522b0eb3cd091ff8cc4cf2c67e287a78173308d0a14f07",
+  "count": 58,
   "resources": [
     {
       "name": "OpenAI Evals",
@@ -354,6 +354,19 @@
       "license": null,
       "last_verified": null,
       "authoritative_source": "https://oecd.ai/en/ai-principles"
+    },
+    {
+      "name": "Speakeasy control plane",
+      "url": "https://github.com/speakeasy-api/gram",
+      "canonical_url": "https://github.com/speakeasy-api/gram",
+      "description": "Govern production MCP tool access using enterprise identity permissions and tool-call audit records.",
+      "section": "Responsible AI and governance",
+      "type": "governance-resource",
+      "status": "active",
+      "archived": false,
+      "license": null,
+      "last_verified": null,
+      "authoritative_source": "https://github.com/speakeasy-api/gram"
     },
     {
       "name": "TensorFlow Model Card Toolkit",
